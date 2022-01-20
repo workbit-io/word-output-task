@@ -1,0 +1,241 @@
+{
+    "content":[
+        {
+            "type":"course",
+            "id":"c001",
+            "title":"Course Label 1",
+            "DisplayTitle":"Course title 1",
+            "children":[
+                {
+                    "type":"contentobject",
+                    "id":"p001",
+                    "title":"Page Label 1",
+                    "DisplayTitle":"Page title 1",
+                    "children":[
+                        {
+                            "type":"article",
+                            "id":"a001",
+                            "title":"Article Label 1",
+                            "DisplayTitle":"Article title 1",
+                            "children":[
+                                {
+                                    "type":"block",
+                                    "id":"b001",
+                                    "title":"Block Label 1",
+                                    "DisplayTitle":"Block title 1",
+                                    "children":[
+                                        {
+                                            "type":"component",
+                                            "id":"c001",
+                                            "title":"Component Label 1",
+                                            "DisplayTitle":"Component title 1",
+                                            "children":[]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type":"article",
+                            "id":"a002",
+                            "title":"Section Introduction",
+                            "DisplayTitle":"Section Introduction",
+                            "children":[
+                                {
+                                    "type":"block",
+                                    "id":"b002",
+                                    "title":"Section Introduction",
+                                    "DisplayTitle":"Section Introduction",
+                                    "children":[
+                                        {
+                                            "type":"component",
+                                            "id":"c002",
+                                            "title":"Image Element Label",
+                                            "DisplayTitle":"Image Element Title",
+                                            "componentType":"ilt-image",
+                                            "attributes":{
+                                
+                                            },
+                                            "children":[]
+                                        },
+                                        {
+                                            "type":"component",
+                                            "id":"c003",
+                                            "title":"List Element Label",
+                                            "DisplayTitle":"List Element Title",
+                                            "componentType":"ilt-list",
+                                            "attributes":{
+                                
+                                            },
+                                            "children":[]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type":"article",
+                            "id":"a003",
+                            "title":"Title",
+                            "DisplayTitle":"Title",
+                            "children":[
+                                {
+                                    "type":"block",
+                                    "id":"b003",
+                                    "title":"Title Slide",
+                                    "DisplayTitle":"Title Slide",
+                                    "children":[
+                                        {
+                                            "type":"component",
+                                            "id":"c004",
+                                            "title":"List Element Label",
+                                            "DisplayTitle":"List Element TitleW",
+                                            "componentType":"ilt-list",
+                                            "attributes":{
+                                
+                                            },
+                                            "children":[]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type":"article",
+                            "id":"a004",
+                            "title":"Teaching Point 1 Label",
+                            "DisplayTitle":"Teaching Point 1 Title",
+                            "children":[
+                                {
+                                    "type":"block",
+                                    "id":"b004",
+                                    "title":"Key Learning Point A Label",
+                                    "DisplayTitle":"Key Learning Point A Title",
+                                    "children":[
+                                        {
+                                            "type":"component",
+                                            "id":"c005",
+                                            "title":"PPI",
+                                            "DisplayTitle":"How to take over the world",
+                                            "componentType":"ilt-image",
+                                            "attributes":{
+                                
+                                            },
+                                            "children":[]
+                                        },
+                                        {
+                                            "type":"component",
+                                            "id":"c006",
+                                            "title":"PPI",
+                                            "DisplayTitle":"Text Element Title",
+                                            "componentType":"ilt-text",
+                                            "attributes":{
+                                                "content":"This should be located under 1.1.1 heading"
+                                            },
+                                            "children":[]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type":"block",
+                                    "id":"b005",
+                                    "title":"Key Learning Point B Label",
+                                    "DisplayTitle":"Key Learning Point B Title",
+                                    "children":[
+                                        {
+                                            "type":"component",
+                                            "id":"c007",
+                                            "title":"PPI",
+                                            "DisplayTitle":"",
+                                            "componentType":"ilt-image",
+                                            "attributes":{
+                                
+                                            },
+                                            "children":[]
+                                        },
+                                        {
+                                            "type":"component",
+                                            "id":"c008",
+                                            "title":"PPI",
+                                            "DisplayTitle":"Text Element",
+                                            "componentType":"ilt-text",
+                                            "attributes":{
+                                                "content":"This should be located under 1.1.2 heading"
+                                            },
+                                            "children":[]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type":"article",
+                            "id":"a005",
+                            "title":"Title",
+                            "DisplayTitle":"Title",
+                            "children":[
+                                {
+                                    "type":"block",
+                                    "id":"b006",
+                                    "title":"Title Slide",
+                                    "DisplayTitle":"Title Slide",
+                                    "children":[
+                                        {
+                                            "type":"component",
+                                            "id":"c009",
+                                            "title":"List Element Label",
+                                            "DisplayTitle":"List Element Title",
+                                            "componentType":"ilt-list",
+                                            "attributes":{
+                                
+                                            },
+                                            "children":[]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type":"article",
+                            "id":"a007",
+                            "title":"Teaching Point 2 Label",
+                            "DisplayTitle":"Teaching Point 2 Title",
+                            "children":[
+                                {
+                                    "type":"block",
+                                    "id":"b007",
+                                    "title":"Key Learning Point C Label",
+                                    "DisplayTitle":"Key Learning Point C Title",
+                                    "children":[
+                                        {
+                                            "type":"component",
+                                            "id":"c010",
+                                            "title":"PPI",
+                                            "DisplayTitle":"How to boil an egg",
+                                            "componentType":"ilt-image",
+                                            "attributes":{
+                                
+                                            },
+                                            "children":[]
+                                        },
+                                        {
+                                            "type":"component",
+                                            "id":"c011",
+                                            "title":"SM - Overview",
+                                            "DisplayTitle":"Overview",
+                                            "componentType":"ilt-text",
+                                            "attributes":{
+                                                "content":"This should be located under 1.2.1 heading"
+                                            },
+                                            "children":[]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
