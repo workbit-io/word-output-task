@@ -1,13 +1,15 @@
 const docx = require("docx");
-
+const fs = require("fs");
 const data = require("./wlodek_json_word.json");
+const { Document, Packer, Paragraph, TextRun } = require("docx");
+const output = require("./word-output.js");
 
 
 // usefull to keep the track of heading numbers
 let nextHeading1Num = 0;
 let nextHeading2Num = 0;
 let nextHeading3Num = 0;
-
+console.log(output);
 
 const createWordOutput = () => {
     const course = data.content[0];
