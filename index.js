@@ -1,6 +1,69 @@
 const docx = require("docx");
 
-// const data = require("./wlodek_json_word.json")
+const data = require("./wlodek_json_word.json");
 
 
-console.log(data.content[0].children[0].children[0]);
+// usefull to keep the track of heading numbers
+let nextHeading1Num = 0;
+let nextHeading2Num = 0;
+let nextHeading3Num = 0;
+
+
+const createWordOutput = () => {
+    const course = data.content[0];
+    generateHeadings(course);
+};
+
+const generateHeading1 = (article) => {
+    const sessionIntroductionTitle = article.children[0].children.filter(object => {
+        return object.title === "Image Element Label";
+    });
+    // setting next HEADING numbering to +1
+    // resetting HEADING 2 and HEADING 3 as with every article/Section Introduction element numbering starts from beginning
+    nextHeading1Num++;
+    nextHeading2Num = 0;
+    nextHeading3Num = 0;
+    console.log(nextHeading1Num);
+    console.log(sessionIntroductionTitle[0].DisplayTitle);
+};
+
+const generateHeading2 = (article) => {
+    const title = article.children[0].children[0].DisplayTitle;
+    nextHeading2Num++;
+    nextHeading3Num = 0;
+    console.log(`${nextHeading1Num}.${nextHeading2Num}`);
+    console.log(title);
+
+};
+
+const generateHeading3 = (teachingPoint) => {
+    const keyLearningPoints = teachingPoint.children.map(block => block);
+    const headings = keyLearningPoints.map(KLP => KLP.children[0].DisplayTitle);
+    headings.forEach(heading => {
+        nextHeading3Num++;
+        console.log(`${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`);
+        console.log(heading);
+    });
+};
+
+const generateHeadings = (course) => {
+    course.children.forEach(page => {
+        page.children.forEach(article => {
+            if (article.title === "Section Introduction") {
+                // console.log("Section Itnroduction: ");
+                generateHeading1(article);
+            }
+            else if (article.title === "Title") {
+                // console.log("Title: ");
+                generateHeading2(article);
+            }
+            else {
+                // console.log("Teaching point: ");
+                generateHeading3(article);
+            }
+        });
+    });
+};
+
+
+createWordOutput();
