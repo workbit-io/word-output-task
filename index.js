@@ -2,7 +2,6 @@ const docx = require("docx");
 const fs = require("fs");
 const data = require("./wlodek_json_word.json");
 const { Document, Packer, Paragraph, TextRun, HeadingLevel } = require("docx");
-// const output = require("./word-output.js");
 
 let doc;
 const headings = [];
@@ -38,8 +37,6 @@ const generateHeading2 = (article) => {
     console.log(`${nextHeading1Num}.${nextHeading2Num}`);
     console.log(title);
     createHeading(title, `${nextHeading1Num}.${nextHeading2Num}`, 2);
-
-
 };
 
 const generateHeading3 = (teachingPoint) => {
@@ -50,7 +47,6 @@ const generateHeading3 = (teachingPoint) => {
         console.log(`${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`);
         console.log(heading);
         createHeading(heading, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
-
     });
 };
 
@@ -93,15 +89,16 @@ const generateHeadings = (course) => {
 const createHeading = (text, number, headingLevel) => {
     let headinglvl;
     switch (headingLevel) {
-        case (1):
+        case 1:
             headinglvl = HeadingLevel.HEADING_1;
-        case (2):
+            break;
+        case 2:
             headinglvl = HeadingLevel.HEADING_2;
-        case (3):
+            break;
+        case 3:
             headinglvl = HeadingLevel.HEADING_3;
-
+            break;
     }
-    // const headinglvl = HeadingLevel.HEADING_3;
     headings.push(new Paragraph({
         children: [
             new TextRun({
@@ -113,13 +110,6 @@ const createHeading = (text, number, headingLevel) => {
 };
 
 
-
-
 // generateDocX();
-
-
-
-
-
 
 createWordOutput();
