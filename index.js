@@ -1,7 +1,7 @@
 const docx = require("docx");
 const fs = require("fs");
 const data = require("./wlodek_json_word.json");
-const { Document, Packer, Paragraph, TextRun, HeadingLevel, TableOfContents, pageBreakBefore } = require("docx");
+const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents } = require("docx");
 
 let doc;
 const contents = [];
@@ -58,12 +58,12 @@ const generateHeading2 = (article) => {
 const generateHeading3andContent = (teachingPoint) => {
     let content;
     const keyLearningPoints = teachingPoint.children;
-    console.log(keyLearningPoints);
+    // console.log(keyLearningPoints);
     keyLearningPoints.forEach(child => child.children.forEach((object, index) => {
         if (index === 0) {
             nextHeading3Num++;
             createHeading(object.DisplayTitle, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
-        } else {
+        } else if (object.componentType === "ilt-text") {
             contents.push(new Paragraph({
                 children: [
                     new TextRun({
@@ -72,6 +72,18 @@ const generateHeading3andContent = (teachingPoint) => {
                 ],
 
 
+            }));
+        } else if (object.componentType === "ilt-image") {
+            contents.push(new Paragraph({
+                children: [
+                    new ImageRun({
+                        data: fs.readFileSync("./assets/helicopter.jpg"),
+                        transformation: {
+                            width: 600,
+                            height: 750,
+                        },
+                    }),
+                ],
             }));
         }
     }));
