@@ -1,15 +1,16 @@
 const docx = require("docx");
 const fs = require("fs");
 const data = require("./wlodek_json_word.json");
-const { Document, Packer, Paragraph, TextRun } = require("docx");
-const output = require("./word-output.js");
+const { Document, Packer, Paragraph, TextRun, HeadingLevel } = require("docx");
+// const output = require("./word-output.js");
 
+let doc;
+const headings = [];
 
 // usefull to keep the track of heading numbers
 let nextHeading1Num = 0;
 let nextHeading2Num = 0;
 let nextHeading3Num = 0;
-console.log(output);
 
 const createWordOutput = () => {
     const course = data.content[0];
@@ -27,6 +28,7 @@ const generateHeading1 = (article) => {
     nextHeading3Num = 0;
     console.log(nextHeading1Num);
     console.log(sessionIntroductionTitle[0].DisplayTitle);
+    createHeading(sessionIntroductionTitle[0].DisplayTitle, nextHeading1Num, 1);
 };
 
 const generateHeading2 = (article) => {
@@ -35,6 +37,8 @@ const generateHeading2 = (article) => {
     nextHeading3Num = 0;
     console.log(`${nextHeading1Num}.${nextHeading2Num}`);
     console.log(title);
+    createHeading(title, `${nextHeading1Num}.${nextHeading2Num}`, 2);
+
 
 };
 
@@ -45,6 +49,23 @@ const generateHeading3 = (teachingPoint) => {
         nextHeading3Num++;
         console.log(`${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`);
         console.log(heading);
+        createHeading(heading, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
+
+    });
+};
+
+const generateDocX = () => {
+    // console.log(headings);
+
+    doc = new Document({
+        sections: [{
+            properties: {},
+            children: headings,
+        }],
+    });
+
+    Packer.toBuffer(doc).then((buffer) => {
+        fs.writeFileSync("My Document.docx", buffer);
     });
 };
 
@@ -52,7 +73,7 @@ const generateHeadings = (course) => {
     course.children.forEach(page => {
         page.children.forEach(article => {
             if (article.title === "Section Introduction") {
-                // console.log("Section Itnroduction: ");
+                // console.log("Section Introduction: ");
                 generateHeading1(article);
             }
             else if (article.title === "Title") {
@@ -65,7 +86,40 @@ const generateHeadings = (course) => {
             }
         });
     });
+    generateDocX();
 };
+
+// adds new heading to headings array
+const createHeading = (text, number, headingLevel) => {
+    let headinglvl;
+    switch (headingLevel) {
+        case (1):
+            headinglvl = HeadingLevel.HEADING_1;
+        case (2):
+            headinglvl = HeadingLevel.HEADING_2;
+        case (3):
+            headinglvl = HeadingLevel.HEADING_3;
+
+    }
+    // const headinglvl = HeadingLevel.HEADING_3;
+    headings.push(new Paragraph({
+        children: [
+            new TextRun({
+                text: `${number} ${text}`,
+            }),
+        ],
+        heading: headinglvl
+    }));
+};
+
+
+
+
+// generateDocX();
+
+
+
+
 
 
 createWordOutput();
