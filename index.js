@@ -1,7 +1,7 @@
 const docx = require("docx");
 const fs = require("fs");
 const data = require("./wlodek_json_word.json");
-const { Document, Packer, Paragraph, TextRun, HeadingLevel } = require("docx");
+const { Document, Packer, Paragraph, TextRun, HeadingLevel, TableOfContents } = require("docx");
 
 let doc;
 const headings = [];
@@ -53,10 +53,18 @@ const generateHeading3 = (teachingPoint) => {
 };
 
 const generateDocX = () => {
+    const sectionChildren = [new TableOfContents("Summary", {
+        hyperlink: true,
+        headingStyleRange: "1-5",
+    }), ...headings,];
     doc = new Document({
         sections: [{
+            features: {
+                updateFields: true,
+            },
             properties: {},
-            children: headings,
+            children:
+                sectionChildren,
         }],
     });
 
