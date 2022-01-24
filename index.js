@@ -1,10 +1,11 @@
 const docx = require("docx");
 const fs = require("fs");
 const data = require("./wlodek_json_word.json");
-const { Document, Packer, Paragraph, TextRun, HeadingLevel, TableOfContents } = require("docx");
+const { Document, Packer, Paragraph, TextRun, HeadingLevel, TableOfContents, pageBreakBefore } = require("docx");
 
 let doc;
 const headings = [];
+let previousHeading = 1;
 
 // keep the track of heading numbering
 let nextHeading1Num = 0;
@@ -98,20 +99,25 @@ const getHeadings = (course) => {
 const createHeading = (text, number, headingLevel) => {
     let headinglvl;
     let indent;
+    let pageBreak = false;
     switch (headingLevel) {
         case 1:
             headinglvl = HeadingLevel.HEADING_1;
             indent = 0;
+            pageBreak = true;
             break;
         case 2:
             headinglvl = HeadingLevel.HEADING_2;
             indent = 200;
+            pageBreak = previousHeading > 1;
             break;
         case 3:
             headinglvl = HeadingLevel.HEADING_3;
             indent = 400;
+            pageBreak = previousHeading > 2;
             break;
     }
+    previousHeading = headingLevel;
     headings.push(new Paragraph({
         children: [
             new TextRun({
@@ -122,6 +128,8 @@ const createHeading = (text, number, headingLevel) => {
         indent: {
             left: indent,
         },
+        pageBreakBefore: pageBreak,
+
     }));
 };
 
