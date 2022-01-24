@@ -283,7 +283,7 @@
                                             "DisplayTitle": "Text Element Title",
                                             "componentType": "ilt-text",
                                             "attributes": {
-                                                "content": "This should be located under 1.1.1 heading"
+                                                "content": "This should be located under 2.1.1 heading"
                                             },
                                             "children": []
                                         }
@@ -311,7 +311,7 @@
                                             "DisplayTitle": "Text Element",
                                             "componentType": "ilt-text",
                                             "attributes": {
-                                                "content": "This should be located under 1.1.2 heading"
+                                                "content": "This should be located under 2.1.2 heading"
                                             },
                                             "children": []
                                         }
