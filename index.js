@@ -6,14 +6,15 @@ const { Document, Packer, Paragraph, TextRun, HeadingLevel } = require("docx");
 let doc;
 const headings = [];
 
-// usefull to keep the track of heading numbers
+// keep the track of heading numbering
 let nextHeading1Num = 0;
 let nextHeading2Num = 0;
 let nextHeading3Num = 0;
 
+// extracts course from the json file
 const createWordOutput = () => {
     const course = data.content[0];
-    generateHeadings(course);
+    getHeadings(course);
 };
 
 const generateHeading1 = (article) => {
@@ -25,8 +26,8 @@ const generateHeading1 = (article) => {
     nextHeading1Num++;
     nextHeading2Num = 0;
     nextHeading3Num = 0;
-    console.log(nextHeading1Num);
-    console.log(sessionIntroductionTitle[0].DisplayTitle);
+    // console.log(nextHeading1Num);
+    // console.log(sessionIntroductionTitle[0].DisplayTitle);
     createHeading(sessionIntroductionTitle[0].DisplayTitle, nextHeading1Num, 1);
 };
 
@@ -34,25 +35,24 @@ const generateHeading2 = (article) => {
     const title = article.children[0].children[0].DisplayTitle;
     nextHeading2Num++;
     nextHeading3Num = 0;
-    console.log(`${nextHeading1Num}.${nextHeading2Num}`);
-    console.log(title);
+    // console.log(`${nextHeading1Num}.${nextHeading2Num}`);
+    // console.log(title);
     createHeading(title, `${nextHeading1Num}.${nextHeading2Num}`, 2);
 };
 
+// add filtering to find KLP's title
 const generateHeading3 = (teachingPoint) => {
     const keyLearningPoints = teachingPoint.children.map(block => block);
     const headings = keyLearningPoints.map(KLP => KLP.children[0].DisplayTitle);
     headings.forEach(heading => {
         nextHeading3Num++;
-        console.log(`${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`);
-        console.log(heading);
+        // console.log(`${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`);
+        // console.log(heading);
         createHeading(heading, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
     });
 };
 
 const generateDocX = () => {
-    // console.log(headings);
-
     doc = new Document({
         sections: [{
             properties: {},
@@ -65,20 +65,21 @@ const generateDocX = () => {
     });
 };
 
-const generateHeadings = (course) => {
+const getHeadings = (course) => {
     course.children.forEach(page => {
         page.children.forEach(article => {
-            if (article.title === "Section Introduction") {
-                // console.log("Section Introduction: ");
-                generateHeading1(article);
-            }
-            else if (article.title === "Title") {
-                // console.log("Title: ");
-                generateHeading2(article);
-            }
-            else {
-                // console.log("Teaching point: ");
-                generateHeading3(article);
+            if (article.type === 'article') {
+                if (article.title === "Section Introduction") {
+                    generateHeading1(article);
+                }
+                else if (article.title === "Title") {
+                    generateHeading2(article);
+                }
+                else {
+                    generateHeading3(article);
+                }
+            } else {
+                throw `${article.DisplayTitle} type is not an article`;
             }
         });
     });
@@ -88,15 +89,19 @@ const generateHeadings = (course) => {
 // adds new heading to headings array
 const createHeading = (text, number, headingLevel) => {
     let headinglvl;
+    let indent;
     switch (headingLevel) {
         case 1:
             headinglvl = HeadingLevel.HEADING_1;
+            indent = 0;
             break;
         case 2:
             headinglvl = HeadingLevel.HEADING_2;
+            indent = 200;
             break;
         case 3:
             headinglvl = HeadingLevel.HEADING_3;
+            indent = 400;
             break;
     }
     headings.push(new Paragraph({
@@ -105,11 +110,14 @@ const createHeading = (text, number, headingLevel) => {
                 text: `${number} ${text}`,
             }),
         ],
-        heading: headinglvl
+        heading: headinglvl,
+        indent: {
+            left: indent,
+        },
     }));
 };
 
 
-// generateDocX();
-
 createWordOutput();
+
+module.exports = { createWordOutput, generateHeading1, generateHeading2, generateHeading3, generateDocX, getHeadings, createHeading };
