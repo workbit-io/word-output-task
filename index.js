@@ -13,6 +13,22 @@ let nextHeading1Num = 0;
 let nextHeading2Num = 0;
 let nextHeading3Num = 0;
 
+const paragraphStyles = {
+    heading1: {
+        id: "WorkbitHeading1",
+        name: "WorkbitHeading1",
+        basedOn: "Heading1",
+        next: "Heading1",
+        quickFormat: true,
+        run: {
+            font: "Arial",
+            size: 28,
+            bold: true,
+            color: "#FF0000",
+        }
+    }
+};
+
 // extracts course from the json file
 const createWordOutput = () => {
     const course = data.content[0];
@@ -57,6 +73,9 @@ const generateHeading3andContent = (teachingPoint) => {
         } else if (object._component === "ilt-list") {
             addList(object);
         }
+        // else if (object._component === "blank") {
+        //     generateBlankPage();
+        // }
     }));
 };
 const addText = (object) => {
@@ -96,14 +115,21 @@ const addImage = (object) => {
                     width: 600,
                     height: 350,
                 },
-                margins: {
-                    top: 201440,
-                    bottom: 201440,
-                },
+
             }),
         ],
+        spacing: {
+            before: 200,
+            after: 200,
+        },
     }));
 };
+
+// const generateBlankPage = () => {
+// contents.push(new Paragraph({
+//     pageBreakBefore: true,
+// }));
+// };
 
 const generateDocX = () => {
     const sectionChildren = [new TableOfContents("Summary", {
@@ -243,6 +269,7 @@ const createHeading = (text, number, headingLevel) => {
         spacing: {
             after: 200,
         },
+        style: paragraphStyles.heading1
 
     }));
 };
