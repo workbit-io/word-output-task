@@ -1,0 +1,3743 @@
+{
+  "content": [
+    {
+      "_id": "61eab168333d381e939e31fb",
+      "_tenantId": "5fbe35e4b977582d6ca5d2c8",
+      "_type": "course",
+      "heroImage": "",
+      "title": "Telebrief",
+      "displayTitle": "Telebrief",
+      "body": "",
+      "description": "",
+      "instruction": "",
+      "contentGroup": "undefined",
+      "isContentGroupEnabled": false,
+      "children": [
+        {
+          "_id": "61eab16b333d381e939e3329",
+          "_courseId": "61eab168333d381e939e31fb",
+          "_parentId": "61eab168333d381e939e31fb",
+          "_type": "contentobject",
+          "title": "Telebrief",
+          "displayTitle": "Telebrief",
+          "body": "",
+          "children": [
+            {
+              "_id": "61eab16f333d381e939e3647",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Telebrief System",
+              "displayTitle": "Telebrief System",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e0e",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3647",
+                  "_type": "block",
+                  "title": "Wildcat Aircraft Manager",
+                  "displayTitle": "Wildcat Aircraft Manager",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6003",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Protective Marking",
+                      "displayTitle": "Protective Marking",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Official - For Training Use Only</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e600e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "FAS605WT Wildcat Aircraft Engineering Managers Course",
+                      "displayTitle": "FAS605WT Wildcat Aircraft Engineering Managers Course",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e601d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Training Objective",
+                      "displayTitle": "Training Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>7.1x Advise Command on Engineering Matters (Communications System)</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6038",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Enabling Objective",
+                      "displayTitle": "Enabling Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>7.1x.1 State the Purpose of the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>7.1x.2 Describe the Components within the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>7.1x.4 Explain the Controls and Displays Associated with the Communications System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e603d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e604d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6060",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Review Date",
+                      "displayTitle": "Review Date",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Course content reviewed 30/07/2018</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e606a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Duration",
+                      "displayTitle": "Duration",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>As course timetable</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e606f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Location",
+                      "displayTitle": "Location",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>In a Wildcat Training Centre (WTC) electronic classroom</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e607b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Resources",
+                      "displayTitle": "Lesson Resources",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p><STRONG>Course Documentation</STRONG></p>"
+                          },
+                          {
+                            "textArea": "<p><STRONG>Student Notes</STRONG></p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6081",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Exercises",
+                      "displayTitle": "Exercises",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Various practical exercises may be included if required by the instructor. Where necessary opportunities for practical exercises are included in the development phase of this lesson.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e608b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Preparation",
+                      "displayTitle": "Preparation",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Prepare the electronic classroom and set the appropriate condition of the student desks</p>"
+                          },
+                          {
+                            "textArea": "<p>Prepare associated lesson notes</p>"
+                          },
+                          {
+                            "textArea": "<p>Set the appropriate condition of the instructor desk</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure the classroom is free from distractions caused by heat, light, noise etc.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6090",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": { "textAreaField": "37" }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e6097",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Key Learning Points",
+                      "displayTitle": "Key Learning Points",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e609d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0e",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Specific Health and Safety",
+                      "displayTitle": "Lesson Specific Health and Safety",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Office Risk Assessment - RA-WIST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>Classroom Risk Assessment - RA-WIST-002</p>"
+                          },
+                          {
+                            "textArea": "<p>Lone Worker Risk Assessment - RA-WIST-013</p>"
+                          },
+                          {
+                            "textArea": "<p>Training of Ground Crew on the Aircraft Systems Trainer - RA-WIST-AST-001</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17a333d381e939e4125",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3647",
+                  "_type": "block",
+                  "title": "RN_AET",
+                  "displayTitle": "RN_AET",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6006",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Protective Marking",
+                      "displayTitle": "Protective Marking",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Official - For Training Use Only</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6012",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "FAS600WT Wildcat Aircraft Engineering Technicians Course ",
+                      "displayTitle": "FAS600WT Wildcat Aircraft Engineering Technicians Course ",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6020",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Training Objective",
+                      "displayTitle": "Training Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>AV005 Describe Aircraft Communication Systems for a Specific Aircraft</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6033",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Enabling Objective",
+                      "displayTitle": "Enabling Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>AV005 4.2 Carry out Preventive (Scheduled) Maintenance in all Trades </p>"
+                          },
+                          {
+                            "textArea": "<p>AV005 4.5 Carry out Corrective Maintenance in all Trades</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e603c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6055",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e605b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Review Date",
+                      "displayTitle": "Review Date",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Course content reviewed 30/07/2018</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6069",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Duration",
+                      "displayTitle": "Duration",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>As course timetable</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6072",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Location",
+                      "displayTitle": "Location",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>In a Wildcat Training Centre (WTC) electronic classroom</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e607a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Resources",
+                      "displayTitle": "Lesson Resources",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p><STRONG>Course Documentation</STRONG></p>"
+                          },
+                          {
+                            "textArea": "<p><STRONG>Student Notes</STRONG></p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e607f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Exercises",
+                      "displayTitle": "Exercises",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Various practical exercises may be included if required by the instructor. Where necessary opportunities for practical exercises are included in the development phase of this lesson.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6089",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Preparation",
+                      "displayTitle": "Preparation",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Prepare the electronic classroom and set the appropriate condition of the student desks</p>"
+                          },
+                          {
+                            "textArea": "<p>Prepare associated lesson notes</p>"
+                          },
+                          {
+                            "textArea": "<p>Set the appropriate condition of the instructor desk</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure the classroom is free from distractions caused by heat, light, noise etc.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e608d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": { "textAreaField": "37" }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e6093",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Key Learning Points",
+                      "displayTitle": "Key Learning Points",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e609a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4125",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Specific Health and Safety",
+                      "displayTitle": "Lesson Specific Health and Safety",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Office Risk Assessment - RA-WIST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>Classroom Risk Assessment - RA-WIST-002</p>"
+                          },
+                          {
+                            "textArea": "<p>Lone Worker Risk Assessment - RA-WIST-013</p>"
+                          },
+                          {
+                            "textArea": "<p>Training of Ground Crew on the Aircraft Systems Trainer - RA-WIST-AST-001</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17a333d381e939e41d5",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3647",
+                  "_type": "block",
+                  "title": "Joint Technician Av",
+                  "displayTitle": "Joint Technician Av",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6002",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Protective Marking",
+                      "displayTitle": "Protective Marking",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Official - For Training Use Only</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6015",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "FAS601WT and Z051 Joint Technician Av Course",
+                      "displayTitle": "FAS601WT and Z051 Joint Technician Av Course",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6022",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Training Objective",
+                      "displayTitle": "Training Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>4.14 Maintain the Communications System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e602a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Enabling Objective",
+                      "displayTitle": "Enabling Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>4.14.1 State the Purpose of the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>4.14.2 Describe the Components within the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>4.14.3 Explain the Controls and Displays Associated with the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>4.14.4 Explain the Maintenance Procedures on the Communications System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6041",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6054",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6061",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Review Date",
+                      "displayTitle": "Review Date",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Course content reviewed 30/07/2018</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e606c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Duration",
+                      "displayTitle": "Duration",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>As course timetable</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6074",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Location",
+                      "displayTitle": "Location",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>In a Wildcat Training Centre (WTC) electronic classroom</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e607d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Resources",
+                      "displayTitle": "Lesson Resources",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p><STRONG>Course Documentation</STRONG></p>"
+                          },
+                          {
+                            "textArea": "<p><STRONG>Student Notes</STRONG></p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6084",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Exercises",
+                      "displayTitle": "Exercises",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Various practical exercises may be included if required by the instructor. Where necessary opportunities for practical exercises are included in the development phase of this lesson.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6086",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Preparation",
+                      "displayTitle": "Preparation",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Prepare the electronic classroom and set the appropriate condition of the student desks</p>"
+                          },
+                          {
+                            "textArea": "<p>Prepare associated lesson notes</p>"
+                          },
+                          {
+                            "textArea": "<p>Set the appropriate condition of the instructor desk</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure the classroom is free from distractions caused by heat, light, noise etc.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e608e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": { "textAreaField": "37" }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e6098",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Key Learning Points",
+                      "displayTitle": "Key Learning Points",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e609e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d5",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Specific Health and Safety",
+                      "displayTitle": "Lesson Specific Health and Safety",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Office Risk Assessment - RA-WIST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>Classroom Risk Assessment - RA-WIST-002</p>"
+                          },
+                          {
+                            "textArea": "<p>Lone Worker Risk Assessment - RA-WIST-013</p>"
+                          },
+                          {
+                            "textArea": "<p>Training of Ground Crew on the Aircraft Systems Trainer - RA-WIST-AST-001</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17b333d381e939e42ec",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3647",
+                  "_type": "block",
+                  "title": "AH_Pilot",
+                  "displayTitle": "AH_Pilot",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e600a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Protective Marking",
+                      "displayTitle": "Protective Marking",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Official - For Training Use Only</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6019",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "WCPIL004YEO Wildcat AH Pilots Course ",
+                      "displayTitle": "WCPIL004YEO Wildcat AH Pilots Course ",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6029",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Training Objective",
+                      "displayTitle": "Training Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>15.2 Operate Aircraft Systems</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6031",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Enabling Objective",
+                      "displayTitle": "Enabling Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>15.2.32 State the Purpose of the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>15.2.33 Describe the Components within the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>15.2.35 Explain the Controls and Displays Associated with the Communications System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6040",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e604e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e605d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Review Date",
+                      "displayTitle": "Review Date",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Course content reviewed 30/07/2018</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e606b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Duration",
+                      "displayTitle": "Duration",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>As course timetable</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6070",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Location",
+                      "displayTitle": "Location",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>In a Wildcat Training Centre (WTC) electronic classroom</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6075",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Resources",
+                      "displayTitle": "Lesson Resources",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p><STRONG>Course Documentation</STRONG></p>"
+                          },
+                          {
+                            "textArea": "<p><STRONG>Student Notes</STRONG></p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6080",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Exercises",
+                      "displayTitle": "Exercises",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Various practical exercises may be included if required by the instructor. Where necessary opportunities for practical exercises are included in the development phase of this lesson.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6088",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Preparation",
+                      "displayTitle": "Preparation",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Prepare the electronic classroom and set the appropriate condition of the student desks</p>"
+                          },
+                          {
+                            "textArea": "<p>Prepare associated lesson notes</p>"
+                          },
+                          {
+                            "textArea": "<p>Set the appropriate condition of the instructor desk</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure the classroom is free from distractions caused by heat, light, noise etc.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e6092",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": { "textAreaField": "37" }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e6095",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Key Learning Points",
+                      "displayTitle": "Key Learning Points",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e609b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42ec",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Specific Health and Safety",
+                      "displayTitle": "Lesson Specific Health and Safety",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Office Risk Assessment - RA-WIST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>Classroom Risk Assessment - RA-WIST-002</p>"
+                          },
+                          {
+                            "textArea": "<p>Lone Worker Risk Assessment - RA-WIST-013</p>"
+                          },
+                          {
+                            "textArea": "<p>Training of Ground Crew on the Aircraft Systems Trainer - RA-WIST-AST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>The Training of Air & Ground Crew in Simulated Environment FMS1 & FMS2 - RA-WIST-FMS1</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17b333d381e939e4381",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3647",
+                  "_type": "block",
+                  "title": "HMA_Pilot",
+                  "displayTitle": "HMA_Pilot",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6005",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Protective Marking",
+                      "displayTitle": "Protective Marking",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Official - For Training Use Only</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6014",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Air 600 Wildcat HMA Pilots Course ",
+                      "displayTitle": "Air 600 Wildcat HMA Pilots Course ",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6021",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Training Objective",
+                      "displayTitle": "Training Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>4.4 Respond to Loss of Communications</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6037",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Enabling Objective",
+                      "displayTitle": "Enabling Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>4.4.3 State the Purpose of the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>4.4.4 Describe the Components within the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>4.4.6 Explain the Controls and Displays Associated with the Communications System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e603e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e604c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6064",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Review Date",
+                      "displayTitle": "Review Date",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Course content reviewed 30/07/2018</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6066",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Duration",
+                      "displayTitle": "Duration",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>As course timetable</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6071",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Location",
+                      "displayTitle": "Location",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>In a Wildcat Training Centre (WTC) electronic classroom</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e607c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Resources",
+                      "displayTitle": "Lesson Resources",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p><STRONG>Course Documentation</STRONG></p>"
+                          },
+                          {
+                            "textArea": "<p><STRONG>Student Notes</STRONG></p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6082",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Exercises",
+                      "displayTitle": "Exercises",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Various practical exercises may be included if required by the instructor. Where necessary opportunities for practical exercises are included in the development phase of this lesson.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6085",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Preparation",
+                      "displayTitle": "Preparation",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Prepare the electronic classroom and set the appropriate condition of the student desks</p>"
+                          },
+                          {
+                            "textArea": "<p>Prepare associated lesson notes</p>"
+                          },
+                          {
+                            "textArea": "<p>Set the appropriate condition of the instructor desk</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure the classroom is free from distractions caused by heat, light, noise etc.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e608f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": { "textAreaField": "37" }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e6096",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Key Learning Points",
+                      "displayTitle": "Key Learning Points",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e609c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4381",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Specific Health and Safety",
+                      "displayTitle": "Lesson Specific Health and Safety",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Office Risk Assessment - RA-WIST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>Classroom Risk Assessment - RA-WIST-002</p>"
+                          },
+                          {
+                            "textArea": "<p>Lone Worker Risk Assessment - RA-WIST-013</p>"
+                          },
+                          {
+                            "textArea": "<p>Training of Ground Crew on the Aircraft Systems Trainer - RA-WIST-AST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>The Training of Air & Ground Crew in Simulated Environment FMS1 & FMS2 - RA-WIST-FMS1</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17b333d381e939e43c8",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3647",
+                  "_type": "block",
+                  "title": "HMA_Observer",
+                  "displayTitle": "HMA_Observer",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6008",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Protective Marking",
+                      "displayTitle": "Protective Marking",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Official - For Training Use Only</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6016",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Air 601 Wildcat HMA Observer's Course ",
+                      "displayTitle": "Air 601 Wildcat HMA Observer's Course ",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6028",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Training Objective",
+                      "displayTitle": "Training Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>4.4 Respond to Loss of Communications</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6036",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Enabling Objective",
+                      "displayTitle": "Enabling Objective",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>4.4.3 State the Purpose of the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>4.4.4 Describe the Components within the Communications System</p>"
+                          },
+                          {
+                            "textArea": "<p>4.4.6 Explain the Controls and Displays Associated with the Communications System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e603f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e604a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Issue Number",
+                      "displayTitle": "Issue Number",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e605e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Review Date",
+                      "displayTitle": "Review Date",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>Review by 18/08/2014</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e606d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Duration",
+                      "displayTitle": "Duration",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Lesson durations will be finalised following completion of a pilot course.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e606e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Location",
+                      "displayTitle": "Location",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>In a Wildcat Training Centre (WTC) electronic classroom</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6078",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Resources",
+                      "displayTitle": "Lesson Resources",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p><STRONG>Course Documentation</STRONG></p>"
+                          },
+                          {
+                            "textArea": "<p><STRONG>Student Notes</STRONG></p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6083",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Exercises",
+                      "displayTitle": "Exercises",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Various practical exercises may be included if required by the instructor. Where necessary opportunities for practical exercises are included in the development phase of this lesson.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6087",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Preparation",
+                      "displayTitle": "Preparation",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Prepare the electronic classroom and set the appropriate condition of the student desks</p>"
+                          },
+                          {
+                            "textArea": "<p>Prepare associated lesson notes</p>"
+                          },
+                          {
+                            "textArea": "<p>Set the appropriate condition of the instructor desk</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure the classroom is free from distractions caused by heat, light, noise etc.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6091",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": { "textAreaField": "37" }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e6094",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Key Learning Points",
+                      "displayTitle": "Key Learning Points",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e609f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e43c8",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Specific Health and Safety",
+                      "displayTitle": "Lesson Specific Health and Safety",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Office Risk Assessment - RA-WIST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>Classroom Risk Assessment - RA-WIST-002</p>"
+                          },
+                          {
+                            "textArea": "<p>Use of Overhead Cranes - RA-WIST-003</p>"
+                          },
+                          {
+                            "textArea": "<p>Mk19B Hydraulic Rig Risk Assessment - RA-WIST-005</p>"
+                          },
+                          {
+                            "textArea": "<p>Lone Worker Risk Assessment - RA-WIST-013</p>"
+                          },
+                          {
+                            "textArea": "<p>Training of Ground Crew on the Aircraft Systems Trainer - RA-WIST-AST-001</p>"
+                          },
+                          {
+                            "textArea": "<p>The Training of Air & Ground Crew in Simulated Environment FMS1 & FMS2 - RA-WIST-FMS1</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e3649",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Lesson Introduction",
+              "displayTitle": "Lesson Introduction",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e0d",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3649",
+                  "_type": "block",
+                  "title": "Lesson Introduction",
+                  "displayTitle": "Lesson Introduction",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6004",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Interest",
+                      "displayTitle": "Interest",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6013",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Need",
+                      "displayTitle": "Need",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6027",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Need",
+                      "displayTitle": "Need",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e602b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Need",
+                      "displayTitle": "Need",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6043",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Need",
+                      "displayTitle": "Need",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6050",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief ",
+                      "displayTitle": "Telebrief ",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e605f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Range",
+                      "displayTitle": "Range",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>Question policy</p>" },
+                          { "textArea": "<p>Notes policy</p>" },
+                          { "textArea": "<p>Length of lesson</p>" },
+                          { "textArea": "<p>Assessment policy</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6065",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Range",
+                      "displayTitle": "Range",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>Question policy</p>" },
+                          { "textArea": "<p>Notes policy</p>" },
+                          { "textArea": "<p>Length of lesson</p>" },
+                          { "textArea": "<p>Assessment policy</p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6079",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Objectives",
+                      "displayTitle": "Lesson Objectives",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>State the Purpose of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Components within the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Operation of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Controls and Displays Associated with the Telebrief System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e608c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Objectives",
+                      "displayTitle": "Lesson Objectives",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>State the Purpose of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Components within the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Operation of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Controls and Displays Associated with the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Maintenance Procedures on the Telebrief System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c7333d381e939e6099",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0d",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Objectives",
+                      "displayTitle": "Lesson Objectives",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>State the Purpose of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Components within the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Operation of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Controls and Displays Associated with the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Maintenance Procedures on the Telebrief System</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e364a",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Section Introduction",
+              "displayTitle": "Section Introduction",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e07",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e364a",
+                  "_type": "block",
+                  "title": "Section Introduction",
+                  "displayTitle": "Section Introduction",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6024",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e07",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Communication System (Telebrief) ",
+                      "displayTitle": "Communication System (Telebrief) ",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e364b",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Title",
+              "displayTitle": "Title",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e0f",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e364b",
+                  "_type": "block",
+                  "title": "Title Slide",
+                  "displayTitle": "Title Slide",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e604b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0f",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief System Overview",
+                      "displayTitle": "Telebrief System Overview",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e364c",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "State the Purpose of the Communication System (Telebrief)",
+              "displayTitle": "State the Purpose of the Communication System (Telebrief)",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e08",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e364c",
+                  "_type": "block",
+                  "title": "Introduction to the Telebrief System",
+                  "displayTitle": "Introduction to the Telebrief System",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab231333d381e939e726c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e08",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Introduction to the Telebrief System",
+                      "displayTitle": "Introduction to the Telebrief System",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-437100-G-K0058-00102-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e602f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e08",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Introduction to the Telebrief System",
+                      "displayTitle": "Introduction to the Telebrief System",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>The aircraft is fitted with a means of communicating with the ship whilst on the flight deck without the need to transmit on a radio.</p>"
+                          },
+                          {
+                            "textArea": "<p>The telebrief system uses a shipborne hardwire electrical cable, which is plugged into the aircraft when on the flight deck.</p>"
+                          },
+                          {
+                            "textArea": "<p><strong>(Click)</strong> The cable is attached to the deck and pulls out when the aircraft lifts.</p>"
+                          },
+                          {
+                            "textArea": "<p>The purpose of the system is that information can be communicated between the aircraft and the ship, and radio silence does not have to be broken when it may be detrimental to do so.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6048",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e08",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e604f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e08",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "What function is provided by the telebrief system?",
+                      "displayTitle": "What function is provided by the telebrief system?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6059",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e08",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "What is the purpose of the telebrief system?",
+                      "displayTitle": "What is the purpose of the telebrief system?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e364d",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Describe the Telebrief System Components",
+              "displayTitle": "Describe the Telebrief System Components",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e09",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e364d",
+                  "_type": "block",
+                  "title": "Telebrief Socket",
+                  "displayTitle": "Telebrief Socket",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab230333d381e939e725c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Telebrief Socket",
+                      "displayTitle": "Telebrief Socket",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-437100-G-K0058-00202-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e7272",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Telebrief Socket",
+                      "displayTitle": "Telebrief Socket",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/159_43-71_rN_E_Step01_Telebrief Socket TS.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e7276",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Telebrief Socket",
+                      "displayTitle": "Telebrief Socket",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/159_43-71_rN_E_Step02_Telebrief Socket TS.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e727a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Telebrief Socket",
+                      "displayTitle": "Telebrief Socket",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/159_43-71_rN_E_Step03_Telebrief Socket TS.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e727c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Telebrief Socket",
+                      "displayTitle": "Telebrief Socket",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/159_43-71_rN_E_Step04_Telebrief Socket TS.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6051",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief Socket",
+                      "displayTitle": "Telebrief Socket",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>The telebrief socket is located on the underside of the aircraft aft of the rear avionics bay door.</p>"
+                          },
+                          {
+                            "textArea": "<p>It is supplied with 28 Vdc from the general busbar 2, protected by circuit breaker panel DJ.</p>"
+                          },
+                          {
+                            "textArea": "<p><strong>(Next)</strong> The socket is covered by a spring-loaded flap that provides environmental protection whilst not in use.</p>"
+                          },
+                          {
+                            "textArea": "<p><strong>(Next)</strong> It provides the means of plugging the ship’s telebrief cable into the aircraft.</p>"
+                          },
+                          {
+                            "textArea": "<p><strong>(Next)</strong> The socket is designed so that during take-off, the cable will detach itself without any damage incurred to the socket or plug.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6062",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6067",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "Where is the telebrief socket located?",
+                      "displayTitle": "Where is the telebrief socket located?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6076",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "What aircraft power is supplied to the telebrief socket?",
+                      "displayTitle": "What aircraft power is supplied to the telebrief socket?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e364e",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Describe the Controls, Displays and Operation of the Communication System (Telebrief)",
+              "displayTitle": "Describe the Controls, Displays and Operation of the Communication System (Telebrief)",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e0a",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e364e",
+                  "_type": "block",
+                  "title": "Telebrief Communications",
+                  "displayTitle": "Telebrief Communications",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab230333d381e939e7260",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Telebrief Communications",
+                      "displayTitle": "Telebrief Communications",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-435100-G-K0058-04101-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e600f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief Communications",
+                      "displayTitle": "Telebrief Communications",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>The Secure Communications Control System (SCCS) interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck, without the need to transmit on a radio.</p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e601f",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief Communications",
+                      "displayTitle": "Telebrief Communications",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>The Secure Communications Control System (SCCS) interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck, without the need to transmit on a radio.</p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6039",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief Communications",
+                      "displayTitle": "Telebrief Communications",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>The SCCS interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck, without the need to transmit on a radio.</p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e603b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Listen to telebrief TELS with independent volume controls at each station.</p>"
+                          },
+                          {
+                            "textArea": "<p>Each nominated station providing MIC audio to the telebrief system. The MIC audio is transmitted when the TB push button at that station is active.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6053",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>TB push button – allows telebrief communications</p>"
+                          },
+                          {
+                            "textArea": "<p>Telebrief enabled annunciator  (three stacked bars) – indicates correct connection of telebrief cable. The indicator is extinguished when the system is operating in reversionary mode</p>"
+                          },
+                          {
+                            "textArea": "<p>Telebrief TB annunciator – illuminates when the TB push button is pressed</p>"
+                          },
+                          {
+                            "textArea": "<p>Volume control – adjusts telebrief TELS volume level.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6063",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>TB push button - allows telebrief communications</p>"
+                          },
+                          {
+                            "textArea": "<p>Telebrief enabled annunciator  (three stacked bars) - indicates correct connection of telebrief cable. The indicator is extinguished when the system is operating in reversionary mode.</p>"
+                          },
+                          {
+                            "textArea": "<p>Telebrief TB annunciator - illuminates when the TB push button is pressed.</p>"
+                          },
+                          {
+                            "textArea": "<p>Volume control - adjusts telebrief TELS volume level.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6068",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>TB push button – allows telebrief communications</p>"
+                          },
+                          {
+                            "textArea": "<p>Telebrief enabled annunciator  (three stacked bars) – indicates correct connection of telebrief cable. The indicator is extinguished when the system is operating in reversionary mode</p>"
+                          },
+                          {
+                            "textArea": "<p>Telebrief TB annunciator – illuminates when the TB push button is pressed</p>"
+                          },
+                          {
+                            "textArea": "<p>Volume control – adjusts telebrief TELS volume level.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6073",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "Where are telebrief communications controlled from?",
+                      "displayTitle": "Where are telebrief communications controlled from?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6077",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "On which panels are the telebrief enabled indicators located?",
+                      "displayTitle": "On which panels are the telebrief enabled indicators located?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e607e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "With regard to telebrief, what does the following annunciator signify?",
+                      "displayTitle": "With regard to telebrief, what does the following annunciator signify?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e608a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0a",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "With regard to telebrief, what does the following annunciator signify?",
+                      "displayTitle": "With regard to telebrief, what does the following annunciator signify?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17a333d381e939e4122",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e364e",
+                  "_type": "block",
+                  "title": "Receive Telebrief Communications",
+                  "displayTitle": "Receive Telebrief Communications",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab231333d381e939e726e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4122",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Receive Telebrief Communications",
+                      "displayTitle": "Receive Telebrief Communications",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-437100-G-K0058-00302-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e602e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4122",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Receive Telebrief Communications",
+                      "displayTitle": "Receive Telebrief Communications",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p></p>" },
+                          {
+                            "textArea": "<p>Plugging the ship's telebrief cable into the aircraft completes the circuit which illuminates the green three bar annunciator above the telebrief button, indicating that communications with the ship on telebrief are enabled.</p>"
+                          },
+                          {
+                            "textArea": "<p>Audio between the aircraft and ship is via the cable assembly and telebrief socket.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6047",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4122",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Ensure that the SCCS is operating in normal or buddy mode.</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure that the Press-To-Mute (PTM) switch is off (inactive) at the major station.</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure the ground telebrief plug is inserted in the Wildcat telebrief socket, and that the telebrief enabled annunciator is illuminated.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6057",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4122",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "How is correct connection of the telebrief cable indicated in the aircraft?",
+                      "displayTitle": "How is correct connection of the telebrief cable indicated in the aircraft?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e605a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4122",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "What Communication Control Panel (CCP) control selection may prevent the telebrief audio from being heard from the pilot’s CCP position?",
+                      "displayTitle": "What Communication Control Panel (CCP) control selection may prevent the telebrief audio from being heard from the pilot’s CCP position?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17a333d381e939e41d3",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e364e",
+                  "_type": "block",
+                  "title": "Transmit Telebrief Communication",
+                  "displayTitle": "Transmit Telebrief Communication",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab230333d381e939e7264",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d3",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Transmit Telebrief Communication",
+                      "displayTitle": "Transmit Telebrief Communication",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-437100-G-K0058-00402-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e602d",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d3",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Transmit Telebrief Communication",
+                      "displayTitle": "Transmit Telebrief Communication",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Ensure the SCCS is operating in the normal mode.</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure that the ground telebrief plug is inserted in the Wildcat telebrief socket, and that the telebrief enabled annunciator is illuminated.</p>"
+                          },
+                          {
+                            "textArea": "<p>Press the TB button on the CCP to allow voice communications with the ship's internal communication system and observe that the TB annunciator is illuminated.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6046",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d3",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Ensure the SCCS is operating in the normal mode.</p>"
+                          },
+                          {
+                            "textArea": "<p>Ensure that the ground telebrief plug is inserted in the Wildcat telebrief socket, and that the telebrief enabled annunciator is illuminated.</p>"
+                          },
+                          {
+                            "textArea": "<p>Press the TB button on the CCP to allow voice communications with the ship's internal communication system and observe that the TB annunciator is illuminated.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6058",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d3",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "What does the yellow TB annunciator signify when it is illuminated on the Communications Control Panel (CCP)?",
+                      "displayTitle": "What does the yellow TB annunciator signify when it is illuminated on the Communications Control Panel (CCP)?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e605c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d3",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "What does the yellow TB annunciator signify when it is illuminated on the Communications Control Panel (CCP)?",
+                      "displayTitle": "What does the yellow TB annunciator signify when it is illuminated on the Communications Control Panel (CCP)?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e364f",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Section Introduction",
+              "displayTitle": "Section Introduction",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e0b",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e364f",
+                  "_type": "block",
+                  "title": "Section Introduction",
+                  "displayTitle": "Section Introduction",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6023",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0b",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Maintenance Procedures",
+                      "displayTitle": "Maintenance Procedures",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e3650",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Title",
+              "displayTitle": "Title",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e10",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3650",
+                  "_type": "block",
+                  "title": "Title Slide",
+                  "displayTitle": "Title Slide",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6056",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e10",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Maintenance Procedures on the Communication System (Telebrief)",
+                      "displayTitle": "Maintenance Procedures on the Communication System (Telebrief)",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e3651",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Explain the Maintenance Procedures on the Communication System (Telebrief)",
+              "displayTitle": "Explain the Maintenance Procedures on the Communication System (Telebrief)",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab178333d381e939e3e0c",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3651",
+                  "_type": "block",
+                  "title": "Telebrief Test Set",
+                  "displayTitle": "Telebrief Test Set",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab231333d381e939e7270",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0c",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Telebrief Test Set",
+                      "displayTitle": "Telebrief Test Set",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-435100-G-K0058-00301-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e602c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0c",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief Test Set",
+                      "displayTitle": "Telebrief Test Set",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Testing of the telebrief system is carried out using the telebrief test set. </p>"
+                          },
+                          {
+                            "textArea": "<p>Using the test set offers a complete check of the aircraft telebrief wiring and indicators.</p>"
+                          },
+                          {
+                            "textArea": "<p>It provides a confidence check of the system prior to embarkation and shipborne operations.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6045",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e0c",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17a333d381e939e4123",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3651",
+                  "_type": "block",
+                  "title": "Scheduled/Unscheduled Maintenance Procedures",
+                  "displayTitle": "Scheduled/Unscheduled Maintenance Procedures",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab230333d381e939e7268",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4123",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Scheduled/Unscheduled Maintenance Procedures",
+                      "displayTitle": "Scheduled/Unscheduled Maintenance Procedures",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-Spas S-G-K0058-01001-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e601b",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4123",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Scheduled/Unscheduled Maintenance Procedures",
+                      "displayTitle": "Scheduled/Unscheduled Maintenance Procedures",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Scheduled/unscheduled maintenance is laid down in the Compound-Interactive Electronic Technical Publication (C-IETP) chapter 05, Scheduled/unscheduled maintenance.</p>"
+                          },
+                          {
+                            "textArea": "<p>All maintenance procedures on the telebrief are carried out in accordance with the Air Vehicle maintenance module, chapter 43-71.</p>"
+                          },
+                          {
+                            "textArea": "<p>Periodic maintenance of the telebrief system presently consists of a function test required as a pre-embarkation check.</p>"
+                          },
+                          { "textArea": "<p></p>" },
+                          { "textArea": "<p></p>" }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e7278",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4123",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Scheduled/Unscheduled Maintenance Procedures",
+                      "displayTitle": "Scheduled/Unscheduled Maintenance Procedures",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/1 Pixel Blank.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6034",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4123",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [{ "textArea": "<p></p>" }]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6044",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4123",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>Telebrief system - Telebrief socket assembly - Remove and install.</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6049",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4123",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "When is a functional check of the telebrief system required to be carried out?",
+                      "displayTitle": "When is a functional check of the telebrief system required to be carried out?",
+                      "body": "",
+                      "properties": { "textAreaField": "101" }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "61eab16f333d381e939e3652",
+              "_courseId": "61eab168333d381e939e31fb",
+              "_parentId": "61eab16b333d381e939e3329",
+              "_type": "article",
+              "title": "Lesson End",
+              "displayTitle": "Lesson End",
+              "body": "",
+              "children": [
+                {
+                  "_id": "61eab17a333d381e939e4124",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3652",
+                  "_type": "block",
+                  "title": "Summary",
+                  "displayTitle": "Summary",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab230333d381e939e725e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4124",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Summary",
+                      "displayTitle": "Summary",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-435100-G-K0058-04101-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6035",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e4124",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Summary",
+                      "displayTitle": "Summary",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>The purpose of the system is to ensure communication between the aircraft and the ship is preserved during periods of radio silence.</p>"
+                          },
+                          {
+                            "textArea": "<p>The telebrief system uses a ship's electrical cable installation, which is plugged into the aircraft when on the flight deck of the ship.</p>"
+                          },
+                          {
+                            "textArea": "<p>The SCCS interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck.</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17a333d381e939e41d4",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3652",
+                  "_type": "block",
+                  "title": "Lesson End Objectives",
+                  "displayTitle": "Lesson End Objectives",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab1c5333d381e939e6011",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d4",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Objectives",
+                      "displayTitle": "Lesson Objectives",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>State the Purpose of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Components within the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Operation of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Controls and Displays Associated with the Telebrief System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6032",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d4",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Objectives",
+                      "displayTitle": "Lesson Objectives",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>State the Purpose of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Components within the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Operation of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Controls and Displays Associated with the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Maintenance Procedures on the Telebrief System</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6052",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17a333d381e939e41d4",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Lesson Objectives",
+                      "displayTitle": "Lesson Objectives",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>State the Purpose of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Components within the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Describe the Operation of the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Controls and Displays Associated with the Telebrief System</p>"
+                          },
+                          {
+                            "textArea": "<p>Explain the Maintenance Procedures on the Telebrief System</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17b333d381e939e42eb",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3652",
+                  "_type": "block",
+                  "title": "References",
+                  "displayTitle": "References",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab230333d381e939e726a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42eb",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "References",
+                      "displayTitle": "References",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/1 Pixel Blank.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6010",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42eb",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "References",
+                      "displayTitle": "References",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p></p>" },
+                          {
+                            "textArea": "<p>Manual of Airworthiness Maintenance - Processes (MAM-P)</p>"
+                          },
+                          { "textArea": "<p>Operating Data Manual (ODM)</p>" },
+                          { "textArea": "<p>Flight Reference Cards (FRC)</p>" },
+                          {
+                            "textArea": "<p>Current Wildcat Release To Service (RTS).</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6025",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e42eb",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p></p>" },
+                          {
+                            "textArea": "<p>Manual of Airworthiness Maintenance - Processes (MAM-P)</p>"
+                          },
+                          { "textArea": "<p>Operating Data Manual (ODM)</p>" },
+                          { "textArea": "<p>Flight Reference Cards (FRC)</p>" },
+                          {
+                            "textArea": "<p>Current Wildcat Release To Service (RTS).</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17b333d381e939e4380",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3652",
+                  "_type": "block",
+                  "title": "Practical Consolidation – Controls and Displays",
+                  "displayTitle": "Practical Consolidation – Controls and Displays",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab230333d381e939e7266",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4380",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Practical Consolidation – Controls and Displays",
+                      "displayTitle": "Practical Consolidation – Controls and Displays",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/Top-front-left-3qtr.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e7274",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4380",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Practical Consolidation – Controls and Displays",
+                      "displayTitle": "Practical Consolidation – Controls and Displays",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/ICN-LL-A-Spas S-G-K0058-01001-00-A-01-1.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e6026",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17b333d381e939e4380",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Practical Consolidation – Controls and Displays",
+                      "displayTitle": "Practical Consolidation – Controls and Displays",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          { "textArea": "<p>Telebrief socket</p>" },
+                          {
+                            "textArea": "<p>CCP telebrief switches and indicators.</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17c333d381e939e4437",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3652",
+                  "_type": "block",
+                  "title": "Telebrief Fault Diagnosis and Rectification",
+                  "displayTitle": "Telebrief Fault Diagnosis and Rectification",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eab230333d381e939e7262",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e4437",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Telebrief Fault Diagnosis and Rectification",
+                      "displayTitle": "Telebrief Fault Diagnosis and Rectification",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "course/assets/Top-front-left-3qtr.png"
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e601e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e4437",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief Fault Diagnosis and Rectification",
+                      "displayTitle": "Telebrief Fault Diagnosis and Rectification",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": [
+                          {
+                            "textArea": "<p>No. 43-06 Telebrief Fault Diagnosis.</p>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_id": "61eab17c333d381e939e443c",
+                  "_courseId": "61eab168333d381e939e31fb",
+                  "_parentId": "61eab16f333d381e939e3652",
+                  "_type": "block",
+                  "title": "Finish",
+                  "displayTitle": "Finish",
+                  "body": "",
+                  "children": [
+                    {
+                      "_id": "61eeb3d04320571b64fbe59a",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "blank",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Component title",
+                      "displayTitle": "Component title",
+                      "body": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

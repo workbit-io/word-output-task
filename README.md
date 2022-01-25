@@ -12,3 +12,11 @@
    3. Run node index.js
    4. My Document.docx gets created in the working directory
 
+
+# telebrief.json build
+ - File telebrief.json contains course build of the Telebrief course.
+ - There are slight changes to course build .json
+ 1. DisplayTitle is now displayTitle
+ 2. Components contain properties object
+ 3. type prop is prefixed with underscore _type
+ 
