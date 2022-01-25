@@ -1,7 +1,8 @@
 const docx = require("docx");
 const fs = require("fs");
-const data = require("./wlodek_json_word.json");
-const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents } = require("docx");
+// const data = require("./wlodek_json_word.json");
+const data = require("./telebrief.json");
+const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents, Header, Footer, TextWrappingType, TextWrappingSide, PageNumber, AlignmentType, BorderStyle } = require("docx");
 
 let doc;
 const contents = [];
@@ -19,40 +20,25 @@ const createWordOutput = () => {
 };
 
 const generateHeading1 = (article) => {
-    const sessionIntroductionTitle = article.children[0].children.filter(object => {
-        return object.title === "Image Element Label";
-    });
+    const sessionIntroductionTitle = article.children[0].children[0];
     // setting next HEADING numbering to +1
     // resetting HEADING 2 and HEADING 3 as with every article/Section Introduction element numbering starts from beginning
     nextHeading1Num++;
     nextHeading2Num = 0;
     nextHeading3Num = 0;
     // console.log(nextHeading1Num);
-    // console.log(sessionIntroductionTitle[0].DisplayTitle);
-    createHeading(sessionIntroductionTitle[0].DisplayTitle, nextHeading1Num, 1);
+    // console.log(sessionIntroductionTitle[0].displayTitle);
+    createHeading(sessionIntroductionTitle.displayTitle, nextHeading1Num, 1);
 };
 
 const generateHeading2 = (article) => {
-    const title = article.children[0].children[0].DisplayTitle;
+    const title = article.children[0].children[0].displayTitle;
     nextHeading2Num++;
     nextHeading3Num = 0;
     // console.log(`${nextHeading1Num}.${nextHeading2Num}`);
     // console.log(title);
     createHeading(title, `${nextHeading1Num}.${nextHeading2Num}`, 2);
 };
-
-// add filtering to find KLP's title
-// const generateHeading3andContent = (teachingPoint) => {
-//     const keyLearningPoints = teachingPoint.children;
-//     const headings = keyLearningPoints.map(KLP => KLP.children[0].DisplayTitle);
-//     headings.forEach(heading => {
-//         nextHeading3Num++;
-//         // console.log(`${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`);
-//         // console.log(heading);
-//         createHeading(heading, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
-//     });
-//     // generateContent(KeyLearningPoints);
-// };
 
 // generates heading 3 and contents underneath
 const generateHeading3andContent = (teachingPoint) => {
@@ -62,30 +48,60 @@ const generateHeading3andContent = (teachingPoint) => {
     keyLearningPoints.forEach(child => child.children.forEach((object, index) => {
         if (index === 0) {
             nextHeading3Num++;
-            createHeading(object.DisplayTitle, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
-        } else if (object.componentType === "ilt-text") {
-            contents.push(new Paragraph({
-                children: [
-                    new TextRun({
-                        text: object.attributes.content,
-                    }),
-                ],
+            createHeading(object.displayTitle, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
+        } else if (object._component === "ilt-text") {
+            addText(object);
+        } else if (object._component === "ilt-image") {
+            addImage(object);
 
-
-            }));
-        } else if (object.componentType === "ilt-image") {
-            contents.push(new Paragraph({
-                children: [
-                    new ImageRun({
-                        data: fs.readFileSync("./assets/helicopter.jpg"),
-                        transformation: {
-                            width: 600,
-                            height: 750,
-                        },
-                    }),
-                ],
-            }));
+        } else if (object._component === "ilt-list") {
+            addList(object);
         }
+    }));
+};
+const addText = (object) => {
+    contents.push(new Paragraph({
+        children: [
+            new TextRun({
+                // text: object.attributes.content,
+                text: "What is Text area 101???"
+            }),
+        ],
+
+
+    }));
+};
+const addList = (object) => {
+    object.properties.listItems.forEach(listItem => { //it assumes all lists have bullet points - to FIX!!!
+        contents.push(new Paragraph({
+            children: [
+                new TextRun({
+                    text: listItem.textArea.replace(/<\/?[^>]+>/gi, '')
+                })
+            ],
+            bullet: {
+                level: 0
+            }
+        }));
+
+    });
+};
+const addImage = (object) => {
+    contents.push(new Paragraph({
+        children: [
+            new ImageRun({
+                data: fs.readFileSync("./assets/helicopter-portrait.jpg"),
+                // data: fs.readFileSync(object.properties.assetFile)
+                transformation: {
+                    width: 600,
+                    height: 350,
+                },
+                margins: {
+                    top: 201440,
+                    bottom: 201440,
+                },
+            }),
+        ],
     }));
 };
 
@@ -96,6 +112,56 @@ const generateDocX = () => {
     }), ...contents,];
     doc = new Document({
         sections: [{
+            headers: {
+                default: new Header({
+                    children: [
+                        new Paragraph({
+                            children: [
+                                new ImageRun({
+                                    data: fs.readFileSync("./assets/lemonardo.jpg"),
+                                    transformation: {
+                                        width: 100,
+                                        height: 55,
+                                    },
+                                }),
+                                new TextRun({
+                                    text: "LEMONARDO"
+                                }),
+                            ],
+                            border: {
+                                bottom: {
+                                    color: "auto",
+                                    space: 1,
+                                    style: BorderStyle.SINGLE,
+                                    size: 6,
+                                },
+                            },
+                        })
+                    ],
+                }),
+
+            },
+            footers: {
+                default: new Footer({
+                    children: [new Paragraph({
+                        children: [
+                            new TextRun({
+                                children: [PageNumber.CURRENT],
+                            })
+                        ],
+                        alignment: AlignmentType.RIGHT,
+                        border: {
+                            top: {
+                                color: "auto",
+                                space: 1,
+                                style: BorderStyle.SINGLE,
+                                size: 6,
+                            },
+                        },
+
+                    })],
+                }),
+            },
             features: {
                 updateFields: true,
             },
@@ -112,8 +178,16 @@ const generateDocX = () => {
 
 const getHeadings = (course) => {
     course.children.forEach(page => {
-        page.children.forEach(article => {
-            if (article.type === 'article') {
+        page.children.forEach((article, index) => {
+            if (article._type === 'article') {
+                console.log(index);
+                if (index === 0) { // it means it's a first element before Lesson Introduction
+                    //  What should I do with it? It has got tons of info to display
+                    console.log("found ???");
+                } else if (article._type === "article" && index === 1) { // it means it's a Lesson Introduction
+                    //  What should I do with it? It has got tons of info to display    
+                    console.log("found Lesson Introduction");
+                }
                 if (article.title === "Section Introduction") {
                     generateHeading1(article);
                 }
@@ -123,8 +197,9 @@ const getHeadings = (course) => {
                 else {
                     generateHeading3andContent(article);
                 }
-            } else {
-                throw `${article.DisplayTitle} type is not an article`;
+            }
+            else {
+                throw `${article.displayTitle} type is not an article`;
             }
         });
     });
@@ -165,6 +240,9 @@ const createHeading = (text, number, headingLevel) => {
             left: indent,
         },
         pageBreakBefore: pageBreak,
+        spacing: {
+            after: 200,
+        },
 
     }));
 };

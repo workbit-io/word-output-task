@@ -4,31 +4,31 @@
             "type": "course",
             "id": "c001",
             "title": "Course Label 1",
-            "DisplayTitle": "Course title 1",
+            "displayTitle": "Course title 1",
             "children": [
                 {
                     "type": "contentobject",
                     "id": "p001",
                     "title": "Page Label 1",
-                    "DisplayTitle": "Page title 1",
+                    "displayTitle": "Page title 1",
                     "children": [
                         {
                             "type": "article",
                             "id": "a002",
                             "title": "Section Introduction",
-                            "DisplayTitle": "Section Introduction",
+                            "displayTitle": "Section Introduction",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b002",
                                     "title": "Section Introduction",
-                                    "DisplayTitle": "Section Introduction",
+                                    "displayTitle": "Section Introduction",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c002",
                                             "title": "Image Element Label",
-                                            "DisplayTitle": "Image Element Title",
+                                            "displayTitle": "Image Element Title",
                                             "componentType": "ilt-image",
                                             "attributes": {},
                                             "children": []
@@ -37,7 +37,7 @@
                                             "type": "component",
                                             "id": "c003",
                                             "title": "List Element Label",
-                                            "DisplayTitle": "List Element Title",
+                                            "displayTitle": "List Element Title",
                                             "componentType": "ilt-list",
                                             "attributes": {},
                                             "children": []
@@ -50,19 +50,19 @@
                             "type": "article",
                             "id": "a003",
                             "title": "Title",
-                            "DisplayTitle": "Title",
+                            "displayTitle": "Title",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b003",
                                     "title": "Title Slide",
-                                    "DisplayTitle": "Title Slide",
+                                    "displayTitle": "Title Slide",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c004",
                                             "title": "List Element Label",
-                                            "DisplayTitle": "List Element Title 1",
+                                            "displayTitle": "List Element Title 1",
                                             "componentType": "ilt-list",
                                             "attributes": {},
                                             "children": []
@@ -75,19 +75,19 @@
                             "type": "article",
                             "id": "a004",
                             "title": "Teaching Point 1 Label",
-                            "DisplayTitle": "Teaching Point 1 Title",
+                            "displayTitle": "Teaching Point 1 Title",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b004",
                                     "title": "Key Learning Point A Label",
-                                    "DisplayTitle": "Key Learning Point A Title",
+                                    "displayTitle": "Key Learning Point A Title",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c005",
                                             "title": "PPI",
-                                            "DisplayTitle": "How to take over the world",
+                                            "displayTitle": "How to take over the world",
                                             "componentType": "ilt-image",
                                             "attributes": {},
                                             "children": []
@@ -96,7 +96,7 @@
                                             "type": "component",
                                             "id": "c006",
                                             "title": "PPI",
-                                            "DisplayTitle": "Text Element Title",
+                                            "displayTitle": "Text Element Title",
                                             "componentType": "ilt-image",
                                             "attributes": {
                                                 "content": "https://images.unsplash.com/photo-1576725386266-5c4b8c63da66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
@@ -107,7 +107,7 @@
                                             "type": "component",
                                             "id": "c006",
                                             "title": "PPI",
-                                            "DisplayTitle": "Text Element Title",
+                                            "displayTitle": "Text Element Title",
                                             "componentType": "ilt-text",
                                             "attributes": {
                                                 "content": "This should be located under 1.1.1 heading"
@@ -120,13 +120,13 @@
                                     "type": "block",
                                     "id": "b005",
                                     "title": "Key Learning Point B Label",
-                                    "DisplayTitle": "Key Learning Point B Title",
+                                    "displayTitle": "Key Learning Point B Title",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c007",
                                             "title": "PPI",
-                                            "DisplayTitle": "Machining for dummies",
+                                            "displayTitle": "Machining for dummies",
                                             "componentType": "ilt-image",
                                             "attributes": {},
                                             "children": []
@@ -135,7 +135,7 @@
                                             "type": "component",
                                             "id": "c008",
                                             "title": "PPI",
-                                            "DisplayTitle": "Text Element",
+                                            "displayTitle": "Text Element",
                                             "componentType": "ilt-text",
                                             "attributes": {
                                                 "content": "This should be located under 1.1.2 heading"
@@ -150,19 +150,19 @@
                             "type": "article",
                             "id": "a005",
                             "title": "Title",
-                            "DisplayTitle": "Title",
+                            "displayTitle": "Title",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b006",
                                     "title": "Title Slide",
-                                    "DisplayTitle": "Title Slide",
+                                    "displayTitle": "Title Slide",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c009",
                                             "title": "List Element Label",
-                                            "DisplayTitle": "List Element Title 2",
+                                            "displayTitle": "List Element Title 2",
                                             "componentType": "ilt-list",
                                             "attributes": {},
                                             "children": []
@@ -175,19 +175,19 @@
                             "type": "article",
                             "id": "a007",
                             "title": "Teaching Point 2 Label",
-                            "DisplayTitle": "Teaching Point 2 Title",
+                            "displayTitle": "Teaching Point 2 Title",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b007",
                                     "title": "Key Learning Point C Label",
-                                    "DisplayTitle": "Key Learning Point C Title",
+                                    "displayTitle": "Key Learning Point C Title",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c010",
                                             "title": "PPI",
-                                            "DisplayTitle": "How to boil an egg",
+                                            "displayTitle": "How to boil an egg",
                                             "componentType": "ilt-image",
                                             "attributes": {},
                                             "children": []
@@ -196,7 +196,7 @@
                                             "type": "component",
                                             "id": "c011",
                                             "title": "SM - Overview",
-                                            "DisplayTitle": "Overview",
+                                            "displayTitle": "Overview",
                                             "componentType": "ilt-text",
                                             "attributes": {
                                                 "content": "This should be located under 1.2.1 heading"
@@ -211,19 +211,19 @@
                             "type": "article",
                             "id": "a002",
                             "title": "Section Introduction",
-                            "DisplayTitle": "Section Introduction",
+                            "displayTitle": "Section Introduction",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b002",
                                     "title": "Section Introduction",
-                                    "DisplayTitle": "Section Introduction",
+                                    "displayTitle": "Section Introduction",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c002",
                                             "title": "Image Element Label",
-                                            "DisplayTitle": "Image Element Title",
+                                            "displayTitle": "Image Element Title",
                                             "componentType": "ilt-image",
                                             "attributes": {},
                                             "children": []
@@ -232,7 +232,7 @@
                                             "type": "component",
                                             "id": "c003",
                                             "title": "List Element Label",
-                                            "DisplayTitle": "List Element Title",
+                                            "displayTitle": "List Element Title",
                                             "componentType": "ilt-list",
                                             "attributes": {},
                                             "children": []
@@ -245,19 +245,19 @@
                             "type": "article",
                             "id": "a003",
                             "title": "Title",
-                            "DisplayTitle": "Title",
+                            "displayTitle": "Title",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b003",
                                     "title": "Title Slide",
-                                    "DisplayTitle": "Title Slide",
+                                    "displayTitle": "Title Slide",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c004",
                                             "title": "List Element Label",
-                                            "DisplayTitle": "List Element Title 1",
+                                            "displayTitle": "List Element Title 1",
                                             "componentType": "ilt-list",
                                             "attributes": {},
                                             "children": []
@@ -270,19 +270,19 @@
                             "type": "article",
                             "id": "a004",
                             "title": "Teaching Point 1 Label",
-                            "DisplayTitle": "Teaching Point 1 Title",
+                            "displayTitle": "Teaching Point 1 Title",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b004",
                                     "title": "Key Learning Point A Label",
-                                    "DisplayTitle": "Key Learning Point A Title",
+                                    "displayTitle": "Key Learning Point A Title",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c005",
                                             "title": "PPI",
-                                            "DisplayTitle": "How to take over the world",
+                                            "displayTitle": "How to take over the world",
                                             "componentType": "ilt-image",
                                             "attributes": {},
                                             "children": []
@@ -291,7 +291,7 @@
                                             "type": "component",
                                             "id": "c006",
                                             "title": "PPI",
-                                            "DisplayTitle": "Text Element Title",
+                                            "displayTitle": "Text Element Title",
                                             "componentType": "ilt-text",
                                             "attributes": {
                                                 "content": "This should be located under 2.1.1 heading"
@@ -304,13 +304,13 @@
                                     "type": "block",
                                     "id": "b005",
                                     "title": "Key Learning Point B Label",
-                                    "DisplayTitle": "Key Learning Point B Title",
+                                    "displayTitle": "Key Learning Point B Title",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c007",
                                             "title": "PPI",
-                                            "DisplayTitle": "Machining for dummies 2",
+                                            "displayTitle": "Machining for dummies 2",
                                             "componentType": "ilt-image",
                                             "attributes": {},
                                             "children": []
@@ -319,7 +319,7 @@
                                             "type": "component",
                                             "id": "c008",
                                             "title": "PPI",
-                                            "DisplayTitle": "Text Element",
+                                            "displayTitle": "Text Element",
                                             "componentType": "ilt-text",
                                             "attributes": {
                                                 "content": "This should be located under 2.1.2 heading"
@@ -334,19 +334,19 @@
                             "type": "article",
                             "id": "a005",
                             "title": "Title",
-                            "DisplayTitle": "Title",
+                            "displayTitle": "Title",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b006",
                                     "title": "Title Slide",
-                                    "DisplayTitle": "Title Slide",
+                                    "displayTitle": "Title Slide",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c009",
                                             "title": "List Element Label",
-                                            "DisplayTitle": "List Element Title 2",
+                                            "displayTitle": "List Element Title 2",
                                             "componentType": "ilt-list",
                                             "attributes": {},
                                             "children": []
@@ -359,19 +359,19 @@
                             "type": "article",
                             "id": "a007",
                             "title": "Teaching Point 2 Label",
-                            "DisplayTitle": "Teaching Point 2 Title",
+                            "displayTitle": "Teaching Point 2 Title",
                             "children": [
                                 {
                                     "type": "block",
                                     "id": "b007",
                                     "title": "Key Learning Point C Label",
-                                    "DisplayTitle": "Key Learning Point C Title",
+                                    "displayTitle": "Key Learning Point C Title",
                                     "children": [
                                         {
                                             "type": "component",
                                             "id": "c010",
                                             "title": "PPI",
-                                            "DisplayTitle": "How to boil an egg 2",
+                                            "displayTitle": "How to boil an egg 2",
                                             "componentType": "ilt-image",
                                             "attributes": {},
                                             "children": []
@@ -380,7 +380,7 @@
                                             "type": "component",
                                             "id": "c011",
                                             "title": "SM - Overview",
-                                            "DisplayTitle": "Overview",
+                                            "displayTitle": "Overview",
                                             "componentType": "ilt-text",
                                             "attributes": {
                                                 "content": "This should be located under 2.2.1 heading"
