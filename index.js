@@ -3,6 +3,8 @@ const fs = require("fs");
 // const data = require("./wlodek_json_word.json");
 const data = require("./telebrief.json");
 const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents, Header, Footer, TextWrappingType, TextWrappingSide, PageNumber, AlignmentType, BorderStyle } = require("docx");
+const stylesConfig = require("./config");
+
 
 let doc;
 const contents = [];
@@ -12,22 +14,6 @@ let previousHeading = 1;
 let nextHeading1Num = 0;
 let nextHeading2Num = 0;
 let nextHeading3Num = 0;
-
-const paragraphStyles = {
-    heading1: {
-        id: "WorkbitHeading1",
-        name: "WorkbitHeading1",
-        basedOn: "Heading1",
-        next: "Heading1",
-        quickFormat: true,
-        run: {
-            font: "Arial",
-            size: 28,
-            bold: true,
-            color: "#FF0000",
-        }
-    }
-};
 
 // extracts course from the json file
 const createWordOutput = () => {
@@ -82,11 +68,36 @@ const addText = (object) => {
     contents.push(new Paragraph({
         children: [
             new TextRun({
-                // text: object.attributes.content,
-                text: "What is Text area 101???"
+                text: object.displayTitle,
+                // text: "What is Text area 101???"
             }),
         ],
-
+        border: {
+            top: {
+                color: "auto",
+                space: 1,
+                style: BorderStyle.SINGLE,
+                size: 6,
+            },
+            bottom: {
+                color: "auto",
+                space: 1,
+                style: BorderStyle.SINGLE,
+                size: 6,
+            },
+            left: {
+                color: "auto",
+                space: 1,
+                style: BorderStyle.SINGLE,
+                size: 6,
+            },
+            right: {
+                color: "auto",
+                space: 1,
+                style: BorderStyle.SINGLE,
+                size: 6,
+            },
+        },
 
     }));
 };
@@ -137,6 +148,7 @@ const generateDocX = () => {
         headingStyleRange: "1-5",
     }), ...contents,];
     doc = new Document({
+        styles: stylesConfig,
         sections: [{
             headers: {
                 default: new Header({
@@ -269,7 +281,6 @@ const createHeading = (text, number, headingLevel) => {
         spacing: {
             after: 200,
         },
-        style: paragraphStyles.heading1
 
     }));
 };
