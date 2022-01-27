@@ -4,6 +4,7 @@ const fs = require("fs");
 const data = require("./telebrief.json");
 const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents, Header, Footer, TextWrappingType, TextWrappingSide, PageNumber, AlignmentType, BorderStyle } = require("docx");
 const stylesConfig = require("./config");
+const addIltList = require("./ilt-list");
 
 
 let doc;
@@ -44,6 +45,11 @@ const generateHeading2 = (article) => {
 
 // generates heading 3 and contents underneath
 const generateHeading3andContent = (teachingPoint) => {
+
+    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
+    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
+    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
+
     let content;
     const keyLearningPoints = teachingPoint.children;
     // console.log(keyLearningPoints);
@@ -102,20 +108,25 @@ const addText = (object) => {
     }));
 };
 const addList = (object) => {
-    object.properties.listItems.forEach(listItem => { //it assumes all lists have bullet points - to FIX!!!
-        contents.push(new Paragraph({
-            children: [
-                new TextRun({
-                    text: listItem.textArea.replace(/<\/?[^>]+>/gi, '')
-                })
-            ],
-            bullet: {
-                level: 0
-            }
-        }));
+    // object.properties.listItems.forEach(listItem => { //it assumes all lists have bullet points - to FIX!!!
+    //     contents.push(new Paragraph({
+    //         children: [
+    //             new TextRun({
+    //                 text: listItem.textArea.replace(/<\/?[^>]+>/gi, '')
+    //             })
+    //         ],
+    //         bullet: {
+    //             level: 0
+    //         },
+    //         style: "normalPara"
+    //     }));
 
-    });
+    // });
+    // contents.push(addIltList(object)[0]);
+    addIltList(object).forEach(array => contents.push(array));
+    console.log(addIltList(object));
 };
+
 const addImage = (object) => {
     contents.push(new Paragraph({
         children: [
@@ -221,10 +232,12 @@ const getHeadings = (course) => {
                 console.log(index);
                 if (index === 0) { // it means it's a first element before Lesson Introduction
                     //  What should I do with it? It has got tons of info to display
-                    console.log("found ???");
+                    console.log("found and omitted ???");
+                    return;
                 } else if (article._type === "article" && index === 1) { // it means it's a Lesson Introduction
                     //  What should I do with it? It has got tons of info to display    
-                    console.log("found Lesson Introduction");
+                    console.log("found and omitted Lesson Introduction");
+                    return;
                 }
                 if (article.title === "Section Introduction") {
                     generateHeading1(article);
@@ -246,37 +259,38 @@ const getHeadings = (course) => {
 
 // adds new heading to headings array
 const createHeading = (text, number, headingLevel) => {
-    let headinglvl;
-    let indent;
+    // let headinglvl;
+    // let indent;
     let pageBreak = false;
     switch (headingLevel) {
         case 1:
-            headinglvl = HeadingLevel.HEADING_1;
-            indent = 0;
+            // headinglvl = HeadingLevel.HEADING_1;
+            // indent = 0;
             pageBreak = true;
             break;
         case 2:
-            headinglvl = HeadingLevel.HEADING_2;
-            indent = 200;
+            // headinglvl = HeadingLevel.HEADING_2;
+            // indent = 200;
             pageBreak = previousHeading > 1;
             break;
         case 3:
-            headinglvl = HeadingLevel.HEADING_3;
+            // headinglvl = HeadingLevel.HEADING_3;
             indent = 400;
             pageBreak = previousHeading > 2;
             break;
     }
     previousHeading = headingLevel;
     contents.push(new Paragraph({
+        style: `WorkbitHeading${headingLevel}`,
         children: [
             new TextRun({
                 text: `${number} ${text}`,
             }),
         ],
-        heading: headinglvl,
-        indent: {
-            left: indent,
-        },
+        // heading: headinglvl,
+        // indent: {
+        //     left: indent,
+        // },
         pageBreakBefore: pageBreak,
         spacing: {
             after: 200,
