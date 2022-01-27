@@ -3716,20 +3716,158 @@
                   "_courseId": "61eab168333d381e939e31fb",
                   "_parentId": "61eab16f333d381e939e3652",
                   "_type": "block",
-                  "title": "Finish",
-                  "displayTitle": "Finish",
+                  "title": "ILT Components",
+                  "displayTitle": "ILT Components",
                   "body": "",
                   "children": [
                     {
-                      "_id": "61eeb3d04320571b64fbe59a",
+                      "_id": "61f2b2700cfcc0402c8b7bac",
                       "_courseId": "61eab168333d381e939e31fb",
                       "_parentId": "61eab17c333d381e939e443c",
-                      "_component": "blank",
+                      "_component": "ilt-animate",
                       "_type": "component",
                       "_layout": "full",
-                      "title": "Component title",
-                      "displayTitle": "Component title",
-                      "body": ""
+                      "title": "ILT Adobe Animate",
+                      "displayTitle": "ILT Adobe Animate",
+                      "body": "",
+                      "properties": {
+                        "handleResizeEvent": true,
+                        "adobeAnimateAsset": "course/assets/612_18-00_Component Video_Left AW 101 Main Rotor Turning_HD.swf",
+                        "swfKenexaId": "5445445455454454545"
+                      }
+                    },
+                    {
+                      "_id": "61f2b2ba0cfcc0402c8b7bae",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-mcq",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "ILT MCQ",
+                      "displayTitle": "ILT MCQ",
+                      "body": "",
+                      "properties": {
+                        "question": "<p>Here goes question?</p>",
+                        "shuffle": "0",
+                        "retries": 100,
+                        "answers": [
+                          {
+                            "weighting": 0,
+                            "correct": true,
+                            "answerText": "<p>My Answer1</p>",
+                            "feedbackText": "<p>Feed back text</p>"
+                          },
+                          {
+                            "weighting": 0,
+                            "correct": true,
+                            "answerText": "<p>My Answer2</p>",
+                            "feedbackText": "<p>Feed back text</p>"
+                          },
+                          {
+                            "weighting": 0,
+                            "correct": true,
+                            "answerText": "<p>My Answer3</p>",
+                            "feedbackText": "<p>Feed back text</p>"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61f2b2d60cfcc0402c8b7bb0",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-drag-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "ILT Drag Image",
+                      "displayTitle": "ILT Drag Image",
+                      "body": "",
+                      "properties": {
+                        "question": "<p>ilt drag image question component?</p>",
+                        "imageField": "course/assets/612_18-51_2DrL_CPL_ACSR Control Switch_HD.png",
+                        "shuffle": "2",
+                        "retries": 0,
+                        "showDragBorder": true,
+                        "showDragZone": true,
+                        "showTargets": true,
+                        "targetAreas": [
+                          { "pcLeft": 0, "pcTop": 0, "pcWidth": 0, "pcHeight": 0 },
+                          { "pcLeft": 0, "pcTop": 0, "pcWidth": 0, "pcHeight": 0 },
+                          { "pcLeft": 0, "pcTop": 0, "pcWidth": 0, "pcHeight": 0 },
+                          { "pcLeft": 0, "pcTop": 0, "pcWidth": 0, "pcHeight": 0 }
+                        ],
+                        "dragItems": [
+                          {
+                            "imageField": "",
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          }
+                        ],
+                        "itemTargetMatching": [
+                          {
+                            "targetAreaIndex": 0,
+                            "dragItemIndex": 0,
+                            "weightingPc": 0,
+                            "feedbackText": ""
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61f2b3800cfcc0402c8b7bb6",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-s1000d",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "S1000D Caution",
+                      "displayTitle": "S1000D Caution",
+                      "body": "",
+                      "properties": {
+                        "displayType": "caution",
+                        "preTextArea": "<p>Preceeding Text Area</p>",
+                        "textAreaField": "<p>Contents</p>",
+                        "postTextArea": "<p>Proceeding Text Area</p>",
+                        "audio": ""
+                      }
+                    },
+                    {
+                      "_id": "61f2b3ab0cfcc0402c8b7bb7",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-s1000d",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "S1000D Warning",
+                      "displayTitle": "S1000D Warning",
+                      "body": "",
+                      "properties": {
+                        "displayType": "warning",
+                        "preTextArea": "<p><label for=\"c217_properties_preTextArea\">Pr<strong>eceeding Text Area</strong></label><strong>&nbsp;</strong></p>",
+                        "textAreaField": "<p>Contents</p>",
+                        "postTextArea": "<p>Proceeding Text Area</p>",
+                        "audio": ""
+                      }
+                    },
+                    {
+                      "_id": "61f2b3de0cfcc0402c8b7bb8",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-s1000d",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "S1000D None",
+                      "displayTitle": "S1000D None",
+                      "body": "",
+                      "properties": {
+                        "displayType": "note",
+                        "preTextArea": "<p>Preceeding Text Area</p>",
+                        "textAreaField": "<p>Contents</p>",
+                        "postTextArea": "<p>Proceeding Text Area</p>",
+                        "audio": ""
+                      }
                     }
                   ]
                 }
