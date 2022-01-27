@@ -1,12 +1,14 @@
 const docx = require("docx");
 const fs = require("fs");
 // const data = require("./wlodek_json_word.json");
-const data = require("./telebrief.json");
+// const data = require("./telebrief.json");
+const data = require("./modified-telebrief.json");
 const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents, Header, Footer, TextWrappingType, TextWrappingSide, PageNumber, AlignmentType, BorderStyle } = require("docx");
 const stylesConfig = require("./config");
 const addIltList = require("./ilt-list");
 const addIltText = require("./ilt-text");
 const addIltImage = require("./ilt-image");
+const addIltAV = require("./ilt-av");
 
 
 let doc;
@@ -155,7 +157,7 @@ const addImage = (object) => {
 };
 
 const addAV = (object) => {
-
+    contents.push(addIltAV(object));
 };
 
 // const generateBlankPage = () => {
