@@ -99,15 +99,24 @@ const stylesConfig = module.exports = {
             run: {
                 font: "Arial",
                 size: 20,
-                // bold: true,de
-                // color: "#FF0000"
             },
             paragraph: {
                 spacing: { line: 276, before: 20 * 72 * 0.1, after: 20 * 72 * 0.05 },
-                // rightTabStop: TabStopPosition.MAX,
-                // leftTabStop: 453.543307087,
             },
         },
+        {
+            id: "imagePara",
+            name: "Image Para",
+            basedOn: "Image",
+            next: "Image",
+            quickFormat: true,
+            paragraph: {
+                spacing: {
+                    before: 200,
+                    after: 200
+                }
+            }
+        }
     ],
     // },
 };
