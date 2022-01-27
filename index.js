@@ -2,13 +2,16 @@ const docx = require("docx");
 const fs = require("fs");
 // const data = require("./wlodek_json_word.json");
 // const data = require("./telebrief.json");
-const data = require("./modified-telebrief.json");
+const data = require("./telebrief.json");
 const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents, Header, Footer, TextWrappingType, TextWrappingSide, PageNumber, AlignmentType, BorderStyle } = require("docx");
 const stylesConfig = require("./config");
-const addIltList = require("./ilt-list");
-const addIltText = require("./ilt-text");
-const addIltImage = require("./ilt-image");
-const addIltAV = require("./ilt-av");
+const addIltList = require("./components/author-ilt-list/ilt-list");
+const addIltText = require("./components/author-ilt-text/ilt-text");
+const addIltImage = require("./components/author-ilt-image/ilt-image");
+const addIltAV = require("./components/author-ilt-av/ilt-av");
+const addIltAnimate = require("./components/author-ilt-animate/ilt-animate");
+const addIltMcq = require("./components/author-ilt-mcq/ilt-mcq");
+const addIltDragImage = require("./components/author-ilt-drag-image/ilt-drag-image");
 
 
 let doc;
@@ -54,9 +57,7 @@ const generateHeading3andContent = (teachingPoint) => {
     // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
     // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
 
-    let content;
     const keyLearningPoints = teachingPoint.children;
-    // console.log(keyLearningPoints);
     keyLearningPoints.forEach(child => child.children.forEach((object, index) => {
         if (index === 0) {
             nextHeading3Num++;
@@ -70,6 +71,12 @@ const generateHeading3andContent = (teachingPoint) => {
             addList(object);
         } else if (object._component === "ilt-av") {
             addAV(object);
+        } else if (object._component === "ilt-animate") {
+            addAnimate(object);
+        } else if (object._component === "ilt-mcq") {
+            addMcq(object);
+        } else if (object._component === "ilt-drag-image") {
+            addDragImage(object);
         }
         // else if (object._component === "blank") {
         //     generateBlankPage();
@@ -78,88 +85,30 @@ const generateHeading3andContent = (teachingPoint) => {
 };
 const addText = (object) => {
     contents.push(addIltText(object)[0]);
-    // contents.push(new Paragraph({
-    //     children: [
-    //         new TextRun({
-    //             text: object.displayTitle,
-    //             // text: "What is Text area 101???"
-    //         }),
-    //     ],
-    //     border: {
-    //         top: {
-    //             color: "auto",
-    //             space: 1,
-    //             style: BorderStyle.SINGLE,
-    //             size: 6,
-    //         },
-    //         bottom: {
-    //             color: "auto",
-    //             space: 1,
-    //             style: BorderStyle.SINGLE,
-    //             size: 6,
-    //         },
-    //         left: {
-    //             color: "auto",
-    //             space: 1,
-    //             style: BorderStyle.SINGLE,
-    //             size: 6,
-    //         },
-    //         right: {
-    //             color: "auto",
-    //             space: 1,
-    //             style: BorderStyle.SINGLE,
-    //             size: 6,
-    //         },
-    //     },
-
-    // }));
 };
 const addList = (object) => {
-    // object.properties.listItems.forEach(listItem => { //it assumes all lists have bullet points - to FIX!!!
-    //     contents.push(new Paragraph({
-    //         children: [
-    //             new TextRun({
-    //                 text: listItem.textArea.replace(/<\/?[^>]+>/gi, '')
-    //             })
-    //         ],
-    //         bullet: {
-    //             level: 0
-    //         },
-    //         style: "normalPara"
-    //     }));
-
-    // });
-    // contents.push(addIltList(object)[0]);
-    addIltList(object).forEach(array => contents.push(array));
-    // console.log(addIltList(object));
+    addIltList(object).forEach(element => contents.push(element));
 };
 
 const addImage = (object) => {
     contents.push(addIltImage(object));
-
-    // contents.push(new Paragraph({
-    //     children: [
-    //         new ImageRun({
-    //             data: fs.readFileSync("./assets/helicopter-portrait.jpg"),
-    //             // data: fs.readFileSync(object.properties.assetFile)
-    //             transformation: {
-    //                 width: 600,
-    //                 height: 350,
-    //             },
-
-    //         }),
-    //     ],
-    //     spacing: {
-    //         before: 200,
-    //         after: 200,
-    //     },
-    // }));
 };
 
 const addAV = (object) => {
     contents.push(addIltAV(object));
 };
 
+const addAnimate = (object) => {
+    contents.push(addIltAnimate(object));
+};
+
+const addMcq = (object) => {
+    addIltMcq(object).forEach(element => contents.push(element));
+};
+
+const addDragImage = (object) => {
+    addIltDragImage(object).forEach(element => contents.push(element));
+};
 // const generateBlankPage = () => {
 // contents.push(new Paragraph({
 //     pageBreakBefore: true,
