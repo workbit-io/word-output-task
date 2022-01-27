@@ -6,6 +6,7 @@ const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfCon
 const stylesConfig = require("./config");
 const addIltList = require("./ilt-list");
 const addIltText = require("./ilt-text");
+const addIltImage = require("./ilt-image");
 
 
 let doc;
@@ -65,6 +66,8 @@ const generateHeading3andContent = (teachingPoint) => {
 
         } else if (object._component === "ilt-list") {
             addList(object);
+        } else if (object._component === "ilt-av") {
+            addAV(object);
         }
         // else if (object._component === "blank") {
         //     generateBlankPage();
@@ -73,7 +76,6 @@ const generateHeading3andContent = (teachingPoint) => {
 };
 const addText = (object) => {
     contents.push(addIltText(object)[0]);
-    console.log(addIltText(object)[0]);
     // contents.push(new Paragraph({
     //     children: [
     //         new TextRun({
@@ -131,23 +133,29 @@ const addList = (object) => {
 };
 
 const addImage = (object) => {
-    contents.push(new Paragraph({
-        children: [
-            new ImageRun({
-                data: fs.readFileSync("./assets/helicopter-portrait.jpg"),
-                // data: fs.readFileSync(object.properties.assetFile)
-                transformation: {
-                    width: 600,
-                    height: 350,
-                },
+    contents.push(addIltImage(object));
 
-            }),
-        ],
-        spacing: {
-            before: 200,
-            after: 200,
-        },
-    }));
+    // contents.push(new Paragraph({
+    //     children: [
+    //         new ImageRun({
+    //             data: fs.readFileSync("./assets/helicopter-portrait.jpg"),
+    //             // data: fs.readFileSync(object.properties.assetFile)
+    //             transformation: {
+    //                 width: 600,
+    //                 height: 350,
+    //             },
+
+    //         }),
+    //     ],
+    //     spacing: {
+    //         before: 200,
+    //         after: 200,
+    //     },
+    // }));
+};
+
+const addAV = (object) => {
+
 };
 
 // const generateBlankPage = () => {
