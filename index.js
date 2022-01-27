@@ -5,6 +5,7 @@ const data = require("./telebrief.json");
 const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents, Header, Footer, TextWrappingType, TextWrappingSide, PageNumber, AlignmentType, BorderStyle } = require("docx");
 const stylesConfig = require("./config");
 const addIltList = require("./ilt-list");
+const addIltText = require("./ilt-text");
 
 
 let doc;
@@ -71,41 +72,43 @@ const generateHeading3andContent = (teachingPoint) => {
     }));
 };
 const addText = (object) => {
-    contents.push(new Paragraph({
-        children: [
-            new TextRun({
-                text: object.displayTitle,
-                // text: "What is Text area 101???"
-            }),
-        ],
-        border: {
-            top: {
-                color: "auto",
-                space: 1,
-                style: BorderStyle.SINGLE,
-                size: 6,
-            },
-            bottom: {
-                color: "auto",
-                space: 1,
-                style: BorderStyle.SINGLE,
-                size: 6,
-            },
-            left: {
-                color: "auto",
-                space: 1,
-                style: BorderStyle.SINGLE,
-                size: 6,
-            },
-            right: {
-                color: "auto",
-                space: 1,
-                style: BorderStyle.SINGLE,
-                size: 6,
-            },
-        },
+    contents.push(addIltText(object)[0]);
+    console.log(addIltText(object)[0]);
+    // contents.push(new Paragraph({
+    //     children: [
+    //         new TextRun({
+    //             text: object.displayTitle,
+    //             // text: "What is Text area 101???"
+    //         }),
+    //     ],
+    //     border: {
+    //         top: {
+    //             color: "auto",
+    //             space: 1,
+    //             style: BorderStyle.SINGLE,
+    //             size: 6,
+    //         },
+    //         bottom: {
+    //             color: "auto",
+    //             space: 1,
+    //             style: BorderStyle.SINGLE,
+    //             size: 6,
+    //         },
+    //         left: {
+    //             color: "auto",
+    //             space: 1,
+    //             style: BorderStyle.SINGLE,
+    //             size: 6,
+    //         },
+    //         right: {
+    //             color: "auto",
+    //             space: 1,
+    //             style: BorderStyle.SINGLE,
+    //             size: 6,
+    //         },
+    //     },
 
-    }));
+    // }));
 };
 const addList = (object) => {
     // object.properties.listItems.forEach(listItem => { //it assumes all lists have bullet points - to FIX!!!
@@ -124,7 +127,7 @@ const addList = (object) => {
     // });
     // contents.push(addIltList(object)[0]);
     addIltList(object).forEach(array => contents.push(array));
-    console.log(addIltList(object));
+    // console.log(addIltList(object));
 };
 
 const addImage = (object) => {
@@ -154,12 +157,14 @@ const addImage = (object) => {
 // };
 
 const generateDocX = () => {
-    const sectionChildren = [new TableOfContents("Summary", {
+    // adds a table of contents to the doc
+    const sectionChildren = [new TableOfContents("Table of contents", {
         hyperlink: true,
         headingStyleRange: "1-5",
     }), ...contents,];
+
     doc = new Document({
-        styles: stylesConfig,
+        styles: stylesConfig, // gets styling from config.js
         sections: [{
             headers: {
                 default: new Header({
@@ -211,12 +216,13 @@ const generateDocX = () => {
                     })],
                 }),
             },
+            // enables table of contents functionality
             features: {
                 updateFields: true,
             },
             properties: {},
             children:
-                sectionChildren,
+                sectionChildren, // all children and table of contents
         }],
     });
 
