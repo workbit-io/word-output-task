@@ -75,7 +75,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -140,7 +144,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.5</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -157,7 +165,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.1</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -196,7 +208,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>As course timetable</p>" }
+                          {
+                            "textArea": "<p>As course timetable</p>"
+                          }
                         ]
                       }
                     },
@@ -242,8 +256,12 @@
                           {
                             "textArea": "<p><STRONG>Student Notes</STRONG></p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -307,7 +325,9 @@
                       "title": "",
                       "displayTitle": "",
                       "body": "",
-                      "properties": { "textAreaField": "37" }
+                      "properties": {
+                        "textAreaField": "37"
+                      }
                     },
                     {
                       "_id": "61eab1c7333d381e939e6097",
@@ -323,7 +343,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -402,7 +426,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -464,7 +492,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.5</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -481,7 +513,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.1</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -520,7 +556,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>As course timetable</p>" }
+                          {
+                            "textArea": "<p>As course timetable</p>"
+                          }
                         ]
                       }
                     },
@@ -566,8 +604,12 @@
                           {
                             "textArea": "<p><STRONG>Student Notes</STRONG></p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -631,7 +673,9 @@
                       "title": "",
                       "displayTitle": "",
                       "body": "",
-                      "properties": { "textAreaField": "37" }
+                      "properties": {
+                        "textAreaField": "37"
+                      }
                     },
                     {
                       "_id": "61eab1c7333d381e939e6093",
@@ -647,7 +691,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -726,7 +774,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -794,7 +846,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.5</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -811,7 +867,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.1</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -850,7 +910,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>As course timetable</p>" }
+                          {
+                            "textArea": "<p>As course timetable</p>"
+                          }
                         ]
                       }
                     },
@@ -896,8 +958,12 @@
                           {
                             "textArea": "<p><STRONG>Student Notes</STRONG></p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -961,7 +1027,9 @@
                       "title": "",
                       "displayTitle": "",
                       "body": "",
-                      "properties": { "textAreaField": "37" }
+                      "properties": {
+                        "textAreaField": "37"
+                      }
                     },
                     {
                       "_id": "61eab1c7333d381e939e6098",
@@ -977,7 +1045,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1056,7 +1128,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1074,7 +1150,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>15.2 Operate Aircraft Systems</p>" }
+                          {
+                            "textArea": "<p>15.2 Operate Aircraft Systems</p>"
+                          }
                         ]
                       }
                     },
@@ -1119,7 +1197,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.5</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1136,7 +1218,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.1</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1175,7 +1261,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>As course timetable</p>" }
+                          {
+                            "textArea": "<p>As course timetable</p>"
+                          }
                         ]
                       }
                     },
@@ -1221,8 +1309,12 @@
                           {
                             "textArea": "<p><STRONG>Student Notes</STRONG></p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -1286,7 +1378,9 @@
                       "title": "",
                       "displayTitle": "",
                       "body": "",
-                      "properties": { "textAreaField": "37" }
+                      "properties": {
+                        "textAreaField": "37"
+                      }
                     },
                     {
                       "_id": "61eab1c7333d381e939e6095",
@@ -1302,7 +1396,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1384,7 +1482,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1449,7 +1551,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.5</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1466,7 +1572,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.1</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1505,7 +1615,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>As course timetable</p>" }
+                          {
+                            "textArea": "<p>As course timetable</p>"
+                          }
                         ]
                       }
                     },
@@ -1551,8 +1663,12 @@
                           {
                             "textArea": "<p><STRONG>Student Notes</STRONG></p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -1616,7 +1732,9 @@
                       "title": "",
                       "displayTitle": "",
                       "body": "",
-                      "properties": { "textAreaField": "37" }
+                      "properties": {
+                        "textAreaField": "37"
+                      }
                     },
                     {
                       "_id": "61eab1c7333d381e939e6096",
@@ -1632,7 +1750,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1714,7 +1836,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1779,7 +1905,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.5</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.5</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1796,7 +1926,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p>Issue 2.1</p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p>Issue 2.1</p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -1814,7 +1948,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>Review by 18/08/2014</p>" }
+                          {
+                            "textArea": "<p>Review by 18/08/2014</p>"
+                          }
                         ]
                       }
                     },
@@ -1881,8 +2017,12 @@
                           {
                             "textArea": "<p><STRONG>Student Notes</STRONG></p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -1946,7 +2086,9 @@
                       "title": "",
                       "displayTitle": "",
                       "body": "",
-                      "properties": { "textAreaField": "37" }
+                      "properties": {
+                        "textAreaField": "37"
+                      }
                     },
                     {
                       "_id": "61eab1c7333d381e939e6094",
@@ -1962,7 +2104,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2040,7 +2186,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2057,7 +2207,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2074,7 +2228,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2091,7 +2249,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2108,7 +2270,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2125,7 +2291,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2143,10 +2313,18 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>Question policy</p>" },
-                          { "textArea": "<p>Notes policy</p>" },
-                          { "textArea": "<p>Length of lesson</p>" },
-                          { "textArea": "<p>Assessment policy</p>" }
+                          {
+                            "textArea": "<p>Question policy</p>"
+                          },
+                          {
+                            "textArea": "<p>Notes policy</p>"
+                          },
+                          {
+                            "textArea": "<p>Length of lesson</p>"
+                          },
+                          {
+                            "textArea": "<p>Assessment policy</p>"
+                          }
                         ]
                       }
                     },
@@ -2165,10 +2343,18 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>Question policy</p>" },
-                          { "textArea": "<p>Notes policy</p>" },
-                          { "textArea": "<p>Length of lesson</p>" },
-                          { "textArea": "<p>Assessment policy</p>" }
+                          {
+                            "textArea": "<p>Question policy</p>"
+                          },
+                          {
+                            "textArea": "<p>Notes policy</p>"
+                          },
+                          {
+                            "textArea": "<p>Length of lesson</p>"
+                          },
+                          {
+                            "textArea": "<p>Assessment policy</p>"
+                          }
                         ]
                       }
                     },
@@ -2304,7 +2490,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     }
                   ]
@@ -2343,7 +2533,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     }
                   ]
@@ -2426,7 +2620,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2438,7 +2636,9 @@
                       "title": "What function is provided by the telebrief system?",
                       "displayTitle": "What function is provided by the telebrief system?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     },
                     {
                       "_id": "61eab1c6333d381e939e6059",
@@ -2449,7 +2649,9 @@
                       "title": "What is the purpose of the telebrief system?",
                       "displayTitle": "What is the purpose of the telebrief system?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     }
                   ]
                 }
@@ -2590,7 +2792,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -2602,7 +2808,9 @@
                       "title": "Where is the telebrief socket located?",
                       "displayTitle": "Where is the telebrief socket located?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     },
                     {
                       "_id": "61eab1c6333d381e939e6076",
@@ -2613,7 +2821,9 @@
                       "title": "What aircraft power is supplied to the telebrief socket?",
                       "displayTitle": "What aircraft power is supplied to the telebrief socket?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     }
                   ]
                 }
@@ -2669,8 +2879,12 @@
                           {
                             "textArea": "<p>The Secure Communications Control System (SCCS) interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck, without the need to transmit on a radio.</p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -2692,8 +2906,12 @@
                           {
                             "textArea": "<p>The Secure Communications Control System (SCCS) interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck, without the need to transmit on a radio.</p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -2715,8 +2933,12 @@
                           {
                             "textArea": "<p>The SCCS interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck, without the need to transmit on a radio.</p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -2843,7 +3065,9 @@
                       "title": "Where are telebrief communications controlled from?",
                       "displayTitle": "Where are telebrief communications controlled from?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     },
                     {
                       "_id": "61eab1c6333d381e939e6077",
@@ -2854,7 +3078,9 @@
                       "title": "On which panels are the telebrief enabled indicators located?",
                       "displayTitle": "On which panels are the telebrief enabled indicators located?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     },
                     {
                       "_id": "61eab1c6333d381e939e607e",
@@ -2865,7 +3091,9 @@
                       "title": "With regard to telebrief, what does the following annunciator signify?",
                       "displayTitle": "With regard to telebrief, what does the following annunciator signify?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     },
                     {
                       "_id": "61eab1c6333d381e939e608a",
@@ -2876,7 +3104,9 @@
                       "title": "With regard to telebrief, what does the following annunciator signify?",
                       "displayTitle": "With regard to telebrief, what does the following annunciator signify?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     }
                   ]
                 },
@@ -2918,7 +3148,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p></p>" },
+                          {
+                            "textArea": "<p></p>"
+                          },
                           {
                             "textArea": "<p>Plugging the ship's telebrief cable into the aircraft completes the circuit which illuminates the green three bar annunciator above the telebrief button, indicating that communications with the ship on telebrief are enabled.</p>"
                           },
@@ -2964,7 +3196,9 @@
                       "title": "How is correct connection of the telebrief cable indicated in the aircraft?",
                       "displayTitle": "How is correct connection of the telebrief cable indicated in the aircraft?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     },
                     {
                       "_id": "61eab1c6333d381e939e605a",
@@ -2975,7 +3209,9 @@
                       "title": "What Communication Control Panel (CCP) control selection may prevent the telebrief audio from being heard from the pilot’s CCP position?",
                       "displayTitle": "What Communication Control Panel (CCP) control selection may prevent the telebrief audio from being heard from the pilot’s CCP position?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     }
                   ]
                 },
@@ -3065,7 +3301,9 @@
                       "title": "What does the yellow TB annunciator signify when it is illuminated on the Communications Control Panel (CCP)?",
                       "displayTitle": "What does the yellow TB annunciator signify when it is illuminated on the Communications Control Panel (CCP)?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     },
                     {
                       "_id": "61eab1c6333d381e939e605c",
@@ -3076,7 +3314,9 @@
                       "title": "What does the yellow TB annunciator signify when it is illuminated on the Communications Control Panel (CCP)?",
                       "displayTitle": "What does the yellow TB annunciator signify when it is illuminated on the Communications Control Panel (CCP)?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     }
                   ]
                 }
@@ -3114,7 +3354,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     }
                   ]
@@ -3153,7 +3397,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     }
                   ]
@@ -3233,7 +3481,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     }
                   ]
@@ -3285,8 +3537,12 @@
                           {
                             "textArea": "<p>Periodic maintenance of the telebrief system presently consists of a function test required as a pre-embarkation check.</p>"
                           },
-                          { "textArea": "<p></p>" },
-                          { "textArea": "<p></p>" }
+                          {
+                            "textArea": "<p></p>"
+                          },
+                          {
+                            "textArea": "<p></p>"
+                          }
                         ]
                       }
                     },
@@ -3318,7 +3574,11 @@
                         "postTextArea": "",
                         "listType": "Bullets",
                         "startNum": 0,
-                        "listItems": [{ "textArea": "<p></p>" }]
+                        "listItems": [
+                          {
+                            "textArea": "<p></p>"
+                          }
+                        ]
                       }
                     },
                     {
@@ -3351,7 +3611,9 @@
                       "title": "When is a functional check of the telebrief system required to be carried out?",
                       "displayTitle": "When is a functional check of the telebrief system required to be carried out?",
                       "body": "",
-                      "properties": { "textAreaField": "101" }
+                      "properties": {
+                        "textAreaField": "101"
+                      }
                     }
                   ]
                 }
@@ -3563,12 +3825,18 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p></p>" },
+                          {
+                            "textArea": "<p></p>"
+                          },
                           {
                             "textArea": "<p>Manual of Airworthiness Maintenance - Processes (MAM-P)</p>"
                           },
-                          { "textArea": "<p>Operating Data Manual (ODM)</p>" },
-                          { "textArea": "<p>Flight Reference Cards (FRC)</p>" },
+                          {
+                            "textArea": "<p>Operating Data Manual (ODM)</p>"
+                          },
+                          {
+                            "textArea": "<p>Flight Reference Cards (FRC)</p>"
+                          },
                           {
                             "textArea": "<p>Current Wildcat Release To Service (RTS).</p>"
                           }
@@ -3590,12 +3858,18 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p></p>" },
+                          {
+                            "textArea": "<p></p>"
+                          },
                           {
                             "textArea": "<p>Manual of Airworthiness Maintenance - Processes (MAM-P)</p>"
                           },
-                          { "textArea": "<p>Operating Data Manual (ODM)</p>" },
-                          { "textArea": "<p>Flight Reference Cards (FRC)</p>" },
+                          {
+                            "textArea": "<p>Operating Data Manual (ODM)</p>"
+                          },
+                          {
+                            "textArea": "<p>Flight Reference Cards (FRC)</p>"
+                          },
                           {
                             "textArea": "<p>Current Wildcat Release To Service (RTS).</p>"
                           }
@@ -3656,7 +3930,9 @@
                         "listType": "Bullets",
                         "startNum": 0,
                         "listItems": [
-                          { "textArea": "<p>Telebrief socket</p>" },
+                          {
+                            "textArea": "<p>Telebrief socket</p>"
+                          },
                           {
                             "textArea": "<p>CCP telebrief switches and indicators.</p>"
                           }
@@ -3720,6 +3996,48 @@
                   "displayTitle": "ILT Components",
                   "body": "",
                   "children": [
+                    {
+                      "_id": "61eab231333d381e939e727c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-av",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Extra generic components for testing",
+                      "displayTitle": "Extra generic components for testing",
+                      "body": "",
+                      "properties": {
+                        "assetFile": ""
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e727c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-av",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Test video ilt-av component",
+                      "displayTitle": "Test video ilt-av component",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "assets/video.mp4"
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e727c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-av",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "Test audio ilt-av component",
+                      "displayTitle": "Test audio ilt-av component",
+                      "body": "",
+                      "properties": {
+                        "assetFile": "assets/audio.mp3"
+                      }
+                    },
                     {
                       "_id": "61f2b2700cfcc0402c8b7bac",
                       "_courseId": "61eab168333d381e939e31fb",
@@ -3791,10 +4109,30 @@
                         "showDragZone": true,
                         "showTargets": true,
                         "targetAreas": [
-                          { "pcLeft": 0, "pcTop": 0, "pcWidth": 0, "pcHeight": 0 },
-                          { "pcLeft": 0, "pcTop": 0, "pcWidth": 0, "pcHeight": 0 },
-                          { "pcLeft": 0, "pcTop": 0, "pcWidth": 0, "pcHeight": 0 },
-                          { "pcLeft": 0, "pcTop": 0, "pcWidth": 0, "pcHeight": 0 }
+                          {
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          },
+                          {
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          },
+                          {
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          },
+                          {
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          }
                         ],
                         "dragItems": [
                           {

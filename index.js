@@ -12,6 +12,7 @@ const addIltAV = require("./components/author-ilt-av/ilt-av");
 const addIltAnimate = require("./components/author-ilt-animate/ilt-animate");
 const addIltMcq = require("./components/author-ilt-mcq/ilt-mcq");
 const addIltDragImage = require("./components/author-ilt-drag-image/ilt-drag-image");
+const addIlts1000d = require("./components/author-ilt-s1000d/ilt-s1000d");
 
 
 let doc;
@@ -77,6 +78,8 @@ const generateHeading3andContent = (teachingPoint) => {
             addMcq(object);
         } else if (object._component === "ilt-drag-image") {
             addDragImage(object);
+        } else if (object._component === "ilt-s1000d") {
+            adds1000d(object);
         }
         // else if (object._component === "blank") {
         //     generateBlankPage();
@@ -108,6 +111,11 @@ const addMcq = (object) => {
 
 const addDragImage = (object) => {
     addIltDragImage(object).forEach(element => contents.push(element));
+};
+
+const adds1000d = (object) => {
+    addIlts1000d(object).forEach(element => contents.push(element));
+    // contents.push(addIlts1000d(object));
 };
 // const generateBlankPage = () => {
 // contents.push(new Paragraph({
@@ -199,7 +207,7 @@ const getHeadings = (course) => {
                     //  What should I do with it? It has got tons of info to display
                     console.log("found and omitted ???");
                     return;
-                } else if (article._type === "article" && index === 1) { // it means it's a Lesson Introduction
+                } else if (index === 1) { // it means it's a Lesson Introduction
                     //  What should I do with it? It has got tons of info to display    
                     console.log("found and omitted Lesson Introduction");
                     return;

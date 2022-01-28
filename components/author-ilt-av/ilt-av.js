@@ -2,13 +2,13 @@ const docx = require("docx");
 const fs = require("fs");
 const { Paragraph, ExternalHyperlink, TextRun } = require("docx");
 
-const addImage = module.exports = (object) => {
+const addAV = module.exports = (object) => {
     return (new Paragraph({
         children: [
             new ExternalHyperlink({
                 children: [
                     new TextRun({
-                        text: "External link to video",
+                        text: object.displayTitle,
                         style: "Hyperlink",
                     }),
                 ],
@@ -22,4 +22,4 @@ const addImage = module.exports = (object) => {
 
 };
 
-module.exports = addImage;
+module.exports = addAV;
