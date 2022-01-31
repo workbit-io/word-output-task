@@ -4,7 +4,6 @@ const docx = require("docx");
 const { convertInchesToTwip, convertMillimetersToTwip, HeadingLevel } = require("docx");
 
 const stylesConfig = module.exports = {
-    // styles: {
     default: {
         document: {
             run: {
@@ -12,35 +11,6 @@ const stylesConfig = module.exports = {
             },
         },
     },
-    // heading1: {
-    //   run: {
-    //     size: 28,
-    //     bold: true,
-    //     italics: true,
-    //     color: "FF0000",
-    //   },
-    //   paragraph: {
-    //     spacing: {
-    //       after: 120,
-    //     },
-    //   },
-    // },
-    // heading2: {
-    //   run: {
-    //     size: 26,
-    //     bold: true,
-    //     underline: {
-    //       type: UnderlineType.DOUBLE,
-    //       color: "FF0000",
-    //     },
-    //   },
-    //   paragraph: {
-    //     spacing: {
-    //       before: 240,
-    //       after: 120,
-    //     },
-    //   },
-    // },
     paragraphStyles: [
         {
             id: "WorkbitHeading1",
@@ -105,6 +75,27 @@ const stylesConfig = module.exports = {
             },
         },
         {
+            id: "bulletPara",
+            name: "Bullet Para",
+            basedOn: "Bullet",
+            next: "Bullet",
+            quickFormat: true,
+            run: {
+                font: "Arial",
+                size: 20,
+            },
+            paragraph: {
+                spacing: {
+                    line: 276,
+                    before: 20 * 72 * 0.1,
+                    after: 20 * 72 * 0.05
+                },
+                bullet: {
+                    level: 0
+                },
+            },
+        },
+        {
             id: "imagePara",
             name: "Image Para",
             basedOn: "Image",
@@ -116,9 +107,27 @@ const stylesConfig = module.exports = {
                     after: 200
                 }
             }
+        },
+        {
+            id: "greyedOutPara",
+            name: "Greyed Out Para",
+            basedOn: "Greyed Out",
+            next: "Greyed Out",
+            quickFormat: true,
+            run: {
+                font: "Arial",
+                size: 20,
+                color: "#808080",
+            },
+            paragraph: {
+                spacing: {
+                    line: 276,
+                    before: 20 * 72 * 0.1,
+                    after: 20 * 72 * 0.05
+                },
+            }
         }
     ],
-    // },
 };
 
 module.exports = stylesConfig;

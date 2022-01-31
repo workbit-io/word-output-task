@@ -2880,10 +2880,10 @@
                             "textArea": "<p>The Secure Communications Control System (SCCS) interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck, without the need to transmit on a radio.</p>"
                           },
                           {
-                            "textArea": "<p></p>"
+                            "textArea": "<p>first    </p>"
                           },
                           {
-                            "textArea": "<p></p>"
+                            "textArea": "<p>     </p>"
                           }
                         ]
                       }
@@ -2907,7 +2907,7 @@
                             "textArea": "<p>The Secure Communications Control System (SCCS) interfaces with the telebrief system to provide a secure voice channel for communications with the ship whilst on the flight deck, without the need to transmit on a radio.</p>"
                           },
                           {
-                            "textArea": "<p></p>"
+                            "textArea": "<p>second </p>"
                           },
                           {
                             "textArea": "<p></p>"

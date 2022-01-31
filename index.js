@@ -87,10 +87,13 @@ const generateHeading3andContent = (teachingPoint) => {
     }));
 };
 const addText = (object) => {
+    // console.log(contents.length);
     contents.push(addIltText(object)[0]);
+    // console.log(contents.length);
 };
+
 const addList = (object) => {
-    addIltList(object).forEach(element => contents.push(element));
+    addIltList(object) && addIltList(object).forEach(element => contents.push(element));
 };
 
 const addImage = (object) => {
@@ -202,14 +205,14 @@ const getHeadings = (course) => {
     course.children.forEach(page => {
         page.children.forEach((article, index) => {
             if (article._type === 'article') {
-                console.log(index);
+                // console.log(index);
                 if (index === 0) { // it means it's a first element before Lesson Introduction
                     //  What should I do with it? It has got tons of info to display
-                    console.log("found and omitted ???");
+                    // console.log("found and omitted ???");
                     return;
                 } else if (index === 1) { // it means it's a Lesson Introduction
                     //  What should I do with it? It has got tons of info to display    
-                    console.log("found and omitted Lesson Introduction");
+                    // console.log("found and omitted Lesson Introduction");
                     return;
                 }
                 if (article.title === "Section Introduction") {

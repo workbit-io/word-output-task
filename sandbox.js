@@ -35,16 +35,35 @@ Packer.toBuffer(doc).then((buffer) => {
 
 var dir = './needed-assets';
 
-        // crestes dir
+// crestes dir
 // if (!fs.existsSync(dir)) {
 //     fs.mkdirSync(dir);
 // }
 
-        // copies file
+// copies file
 // fs.copyFile('source.txt', 'destination.txt', (err) => {
 //     if (err) throw err;
 //     console.log('source.txt was copied to destination.txt');
 //   });
 
-        // copies file to new destination
+// copies file to new destination
 //   fs.copySync(path.resolve(assets,'./mainisp.jpg'), './test/mainisp.jpg');
+
+
+
+const removeTags = (string) => {
+    return string.replace(/<[^>]*>/g, ' ')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+};
+
+const sentence = "<p>Br  o    <strong>th   er </strong>   </p>    ";
+const sen2 = "<p>  </p>";
+
+console.log(removeTags(sen2).length);
+
+if (removeTags(sen2)) {
+    console.log("true!!!");
+} else {
+    console.log("false!!!");
+}
