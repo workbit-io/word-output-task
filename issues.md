@@ -12,4 +12,4 @@
   1. Fix spacing
 
 # ilt-image
-  1. WHen generating HEADING_3 component needs to display image if present
+  1. WHen generating HEADING_3 component needs to display image if present !!!!!!!!!IMPORTANT!!!!!!!!!

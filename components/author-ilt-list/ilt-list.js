@@ -2,7 +2,6 @@ const docx = require("docx");
 const { Paragraph, TextRun } = require("docx");
 
 const addEmptyPara = () => {
-    console.log("added empty");
     return new Paragraph({
         children: [
             new TextRun({
@@ -24,24 +23,22 @@ const removeTags = (string) => {
 const addList = module.exports = (object) => {
     const newList = [];
     const listItems = object.properties.listItems;
-    // if (listItems[0].textArea.replace(/\s+/g, '') !== "<p></p>") {
-    if (removeTags(listItems[0].textArea)) {
-        // console.log("first non empty");
+    // checks if whole list is empty or just the first paragraph
+    if (removeTags(listItems[0].textArea) || listItems.length > 1) {
         newList.push(new Paragraph({
             children: [
                 new TextRun({
                     text: "This is a multiple line text area displayed before the list.",
-                    color: "#808080",
                 }),
             ],
             style: "greyedOutPara"
         }));
 
         listItems.forEach(listItem => {
+            // replaces empty list items with empty paragraph
             if (!removeTags(listItem.textArea)) {
-                console.log("not first empty");
                 console.log(listItem.textArea);
-                addEmptyPara();
+                newList.push(addEmptyPara());
             } else {
                 newList.push(new Paragraph({
                     children: [
@@ -58,7 +55,6 @@ const addList = module.exports = (object) => {
             children: [
                 new TextRun({
                     text: "This is a multiple line text area displayed after the list.",
-                    color: "#808080"
                 }),
             ],
             style: "greyedOutPara"
@@ -68,7 +64,6 @@ const addList = module.exports = (object) => {
     }
     else {
         newList.push(addEmptyPara());
-        // console.log("empty para");
     }
     return newList;
 

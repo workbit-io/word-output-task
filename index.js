@@ -63,6 +63,25 @@ const generateHeading3andContent = (teachingPoint) => {
         if (index === 0) {
             nextHeading3Num++;
             createHeading(object.displayTitle, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
+            // checks if heading 3 contains image
+            if (object.properties.assetFile) {
+                // addImage(object);
+                // placeholder to replace for production with addImage() function
+                contents.push(new Paragraph({
+                    children: [
+                        new ImageRun({
+                            data: fs.readFileSync("./assets/heading3.jpg"),
+                            // data: fs.readFileSync(object.properties.assetFile)
+                            transformation: {
+                                width: 600,
+                                height: 250,
+                            },
+
+                        }),
+                    ],
+                    style: "imagePara"
+                }));
+            }
         } else if (object._component === "ilt-text") {
             addText(object);
         } else if (object._component === "ilt-image") {
