@@ -1,7 +1,19 @@
 const docx = require("docx");
 const fs = require("fs");
-const data = require("./wlodek_json_word.json");
-const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents } = require("docx");
+// const data = require("./wlodek_json_word.json");
+// const data = require("./telebrief.json");
+const data = require("./telebrief.json");
+const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents, Header, Footer, TextWrappingType, TextWrappingSide, PageNumber, AlignmentType, BorderStyle } = require("docx");
+const stylesConfig = require("./config");
+const addIltList = require("./components/author-ilt-list/ilt-list");
+const addIltText = require("./components/author-ilt-text/ilt-text");
+const addIltImage = require("./components/author-ilt-image/ilt-image");
+const addIltAV = require("./components/author-ilt-av/ilt-av");
+const addIltAnimate = require("./components/author-ilt-animate/ilt-animate");
+const addIltMcq = require("./components/author-ilt-mcq/ilt-mcq");
+const addIltDragImage = require("./components/author-ilt-drag-image/ilt-drag-image");
+const addIlts1000d = require("./components/author-ilt-s1000d/ilt-s1000d");
+
 
 let doc;
 const contents = [];
@@ -19,21 +31,19 @@ const createWordOutput = () => {
 };
 
 const generateHeading1 = (article) => {
-    const sessionIntroductionTitle = article.children[0].children.filter(object => {
-        return object.title === "Image Element Label";
-    });
+    const sessionIntroductionTitle = article.children[0].children[0];
     // setting next HEADING numbering to +1
     // resetting HEADING 2 and HEADING 3 as with every article/Section Introduction element numbering starts from beginning
     nextHeading1Num++;
     nextHeading2Num = 0;
     nextHeading3Num = 0;
     // console.log(nextHeading1Num);
-    // console.log(sessionIntroductionTitle[0].DisplayTitle);
-    createHeading(sessionIntroductionTitle[0].DisplayTitle, nextHeading1Num, 1);
+    // console.log(sessionIntroductionTitle[0].displayTitle);
+    createHeading(sessionIntroductionTitle.displayTitle, nextHeading1Num, 1);
 };
 
 const generateHeading2 = (article) => {
-    const title = article.children[0].children[0].DisplayTitle;
+    const title = article.children[0].children[0].displayTitle;
     nextHeading2Num++;
     nextHeading3Num = 0;
     // console.log(`${nextHeading1Num}.${nextHeading2Num}`);
@@ -41,67 +51,163 @@ const generateHeading2 = (article) => {
     createHeading(title, `${nextHeading1Num}.${nextHeading2Num}`, 2);
 };
 
-// add filtering to find KLP's title
-// const generateHeading3andContent = (teachingPoint) => {
-//     const keyLearningPoints = teachingPoint.children;
-//     const headings = keyLearningPoints.map(KLP => KLP.children[0].DisplayTitle);
-//     headings.forEach(heading => {
-//         nextHeading3Num++;
-//         // console.log(`${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`);
-//         // console.log(heading);
-//         createHeading(heading, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
-//     });
-//     // generateContent(KeyLearningPoints);
-// };
-
 // generates heading 3 and contents underneath
 const generateHeading3andContent = (teachingPoint) => {
-    let content;
+
+    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
+    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
+    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
+
     const keyLearningPoints = teachingPoint.children;
-    // console.log(keyLearningPoints);
     keyLearningPoints.forEach(child => child.children.forEach((object, index) => {
         if (index === 0) {
             nextHeading3Num++;
-            createHeading(object.DisplayTitle, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
-        } else if (object.componentType === "ilt-text") {
-            contents.push(new Paragraph({
-                children: [
-                    new TextRun({
-                        text: object.attributes.content,
-                    }),
-                ],
+            createHeading(object.displayTitle, `${nextHeading1Num}.${nextHeading2Num}.${nextHeading3Num}`, 3);
+            // checks if heading 3 contains image
+            if (object.properties.assetFile) {
+                // addImage(object);
+                // placeholder to replace for production with addImage() function
+                contents.push(new Paragraph({
+                    children: [
+                        new ImageRun({
+                            data: fs.readFileSync("./assets/heading3.jpg"),
+                            // data: fs.readFileSync(object.properties.assetFile)
+                            transformation: {
+                                width: 600,
+                                height: 250,
+                            },
 
-
-            }));
-        } else if (object.componentType === "ilt-image") {
-            contents.push(new Paragraph({
-                children: [
-                    new ImageRun({
-                        data: fs.readFileSync("./assets/helicopter.jpg"),
-                        transformation: {
-                            width: 600,
-                            height: 750,
-                        },
-                    }),
-                ],
-            }));
+                        }),
+                    ],
+                    style: "imagePara"
+                }));
+            }
+        } else if (object._component === "ilt-text") {
+            addText(object);
+        } else if (object._component === "ilt-image") {
+            addImage(object);
+        } else if (object._component === "ilt-list") {
+            addList(object);
+        } else if (object._component === "ilt-av") {
+            addAV(object);
+        } else if (object._component === "ilt-animate") {
+            addAnimate(object);
+        } else if (object._component === "ilt-mcq") {
+            addMcq(object);
+        } else if (object._component === "ilt-drag-image") {
+            addDragImage(object);
+        } else if (object._component === "ilt-s1000d") {
+            adds1000d(object);
         }
+        // else if (object._component === "blank") {
+        //     generateBlankPage();
+        // }
     }));
 };
+const addText = (object) => {
+    contents.push(addIltText(object));
+};
+
+const addList = (object) => {
+    addIltList(object) && addIltList(object).forEach(element => contents.push(element));
+};
+
+const addImage = (object) => {
+    contents.push(addIltImage(object));
+};
+
+const addAV = (object) => {
+    contents.push(addIltAV(object));
+};
+
+const addAnimate = (object) => {
+    contents.push(addIltAnimate(object));
+};
+
+const addMcq = (object) => {
+    addIltMcq(object).forEach(element => contents.push(element));
+};
+
+const addDragImage = (object) => {
+    addIltDragImage(object).forEach(element => contents.push(element));
+};
+
+const adds1000d = (object) => {
+    addIlts1000d(object).forEach(element => contents.push(element));
+};
+// const generateBlankPage = () => {
+// contents.push(new Paragraph({
+//     pageBreakBefore: true,
+// }));
+// };
 
 const generateDocX = () => {
-    const sectionChildren = [new TableOfContents("Summary", {
+    // adds a table of contents to the doc
+    const sectionChildren = [new TableOfContents("Table of contents", {
         hyperlink: true,
         headingStyleRange: "1-5",
     }), ...contents,];
+
     doc = new Document({
+        styles: stylesConfig, // gets styling from config.js
         sections: [{
+            headers: {
+                default: new Header({
+                    children: [
+                        new Paragraph({
+                            children: [
+                                new ImageRun({
+                                    data: fs.readFileSync("./assets/lemonardo.jpg"),
+                                    transformation: {
+                                        width: 100,
+                                        height: 55,
+                                    },
+                                }),
+                                new TextRun({
+                                    text: "LEMONARDO"
+                                }),
+                            ],
+                            border: {
+                                bottom: {
+                                    color: "auto",
+                                    space: 50,
+                                    style: BorderStyle.SINGLE,
+                                    size: 6,
+                                },
+                            },
+                        })
+                    ],
+                }),
+
+            },
+            footers: {
+                default: new Footer({
+                    children: [new Paragraph({
+                        children: [
+                            new TextRun({
+                                children: [PageNumber.CURRENT],
+                            })
+                        ],
+                        alignment: AlignmentType.RIGHT,
+                        border: {
+                            top: {
+                                color: "auto",
+                                space: 50,
+                                style: BorderStyle.SINGLE,
+                                size: 6,
+                            },
+                        },
+
+                    })],
+                }),
+            },
+            // enables table of contents functionality
             features: {
                 updateFields: true,
             },
             properties: {},
             children:
-                sectionChildren,
+                sectionChildren, // all children and table of contents
         }],
     });
 
@@ -112,8 +218,18 @@ const generateDocX = () => {
 
 const getHeadings = (course) => {
     course.children.forEach(page => {
-        page.children.forEach(article => {
-            if (article.type === 'article') {
+        page.children.forEach((article, index) => {
+            if (article._type === 'article') {
+                // console.log(index);
+                if (index === 0) { // it means it's a first element before Lesson Introduction
+                    //  What should I do with it? It has got tons of info to display
+                    // console.log("found and omitted ???");
+                    return;
+                } else if (index === 1) { // it means it's a Lesson Introduction
+                    //  What should I do with it? It has got tons of info to display    
+                    // console.log("found and omitted Lesson Introduction");
+                    return;
+                }
                 if (article.title === "Section Introduction") {
                     generateHeading1(article);
                 }
@@ -123,8 +239,9 @@ const getHeadings = (course) => {
                 else {
                     generateHeading3andContent(article);
                 }
-            } else {
-                throw `${article.DisplayTitle} type is not an article`;
+            }
+            else {
+                throw `${article.displayTitle} type is not an article`;
             }
         });
     });
@@ -133,38 +250,42 @@ const getHeadings = (course) => {
 
 // adds new heading to headings array
 const createHeading = (text, number, headingLevel) => {
-    let headinglvl;
-    let indent;
+    // let headinglvl;
+    // let indent;
     let pageBreak = false;
     switch (headingLevel) {
         case 1:
-            headinglvl = HeadingLevel.HEADING_1;
-            indent = 0;
+            // headinglvl = HeadingLevel.HEADING_1;
+            // indent = 0;
             pageBreak = true;
             break;
         case 2:
-            headinglvl = HeadingLevel.HEADING_2;
-            indent = 200;
+            // headinglvl = HeadingLevel.HEADING_2;
+            // indent = 200;
             pageBreak = previousHeading > 1;
             break;
         case 3:
-            headinglvl = HeadingLevel.HEADING_3;
+            // headinglvl = HeadingLevel.HEADING_3;
             indent = 400;
             pageBreak = previousHeading > 2;
             break;
     }
     previousHeading = headingLevel;
     contents.push(new Paragraph({
+        style: `WorkbitHeading${headingLevel}`,
         children: [
             new TextRun({
                 text: `${number} ${text}`,
             }),
         ],
-        heading: headinglvl,
-        indent: {
-            left: indent,
-        },
+        // heading: headinglvl,
+        // indent: {
+        //     left: indent,
+        // },
         pageBreakBefore: pageBreak,
+        spacing: {
+            after: 200,
+        },
 
     }));
 };
