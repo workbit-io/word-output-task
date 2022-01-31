@@ -2,7 +2,7 @@ const docx = require("docx");
 const { Paragraph, TextRun } = require("docx");
 
 const addText = module.exports = (object) => {
-    // console.log(object.displayTitle);
+    console.log(object.displayTitle);
     if (object.displayTitle) {
         return (new Paragraph({
             children: [
@@ -10,6 +10,7 @@ const addText = module.exports = (object) => {
                     text: object.displayTitle,
                 }),
             ],
+            style: "textPara"
         })
         );
     }

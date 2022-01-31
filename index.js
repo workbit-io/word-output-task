@@ -86,7 +86,6 @@ const generateHeading3andContent = (teachingPoint) => {
             addText(object);
         } else if (object._component === "ilt-image") {
             addImage(object);
-
         } else if (object._component === "ilt-list") {
             addList(object);
         } else if (object._component === "ilt-av") {
@@ -106,9 +105,7 @@ const generateHeading3andContent = (teachingPoint) => {
     }));
 };
 const addText = (object) => {
-    // console.log(contents.length);
-    contents.push(addIltText(object)[0]);
-    // console.log(contents.length);
+    contents.push(addIltText(object));
 };
 
 const addList = (object) => {
@@ -137,7 +134,6 @@ const addDragImage = (object) => {
 
 const adds1000d = (object) => {
     addIlts1000d(object).forEach(element => contents.push(element));
-    // contents.push(addIlts1000d(object));
 };
 // const generateBlankPage = () => {
 // contents.push(new Paragraph({
@@ -174,7 +170,7 @@ const generateDocX = () => {
                             border: {
                                 bottom: {
                                     color: "auto",
-                                    space: 1,
+                                    space: 50,
                                     style: BorderStyle.SINGLE,
                                     size: 6,
                                 },
@@ -196,7 +192,7 @@ const generateDocX = () => {
                         border: {
                             top: {
                                 color: "auto",
-                                space: 1,
+                                space: 50,
                                 style: BorderStyle.SINGLE,
                                 size: 6,
                             },
