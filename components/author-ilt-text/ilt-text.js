@@ -2,7 +2,6 @@ const docx = require("docx");
 const { Paragraph, TextRun } = require("docx");
 
 const addText = module.exports = (object) => {
-    console.log(object.displayTitle);
     if (object.displayTitle) {
         return (new Paragraph({
             children: [
@@ -13,6 +12,8 @@ const addText = module.exports = (object) => {
             style: "textPara"
         })
         );
+    } else {
+        console.log("No text for: " + object._id);
     }
 };
 

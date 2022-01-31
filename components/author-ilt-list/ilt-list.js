@@ -28,7 +28,9 @@ const addList = module.exports = (object) => {
         newList.push(new Paragraph({
             children: [
                 new TextRun({
+                    // to be removed n production
                     text: "This is a multiple line text area displayed before the list.",
+                    // text: object.properties.preTextArea,
                 }),
             ],
             style: "greyedOutPara"
@@ -37,7 +39,6 @@ const addList = module.exports = (object) => {
         listItems.forEach(listItem => {
             // replaces empty list items with empty paragraph
             if (!removeTags(listItem.textArea)) {
-                console.log(listItem.textArea);
                 newList.push(addEmptyPara());
             } else {
                 newList.push(new Paragraph({
@@ -54,19 +55,18 @@ const addList = module.exports = (object) => {
         newList.push(new Paragraph({
             children: [
                 new TextRun({
+                    // to be removed n production
                     text: "This is a multiple line text area displayed after the list.",
+                    // text: object.properties.postTextArea,
                 }),
             ],
             style: "greyedOutPara"
-
         }));
-
     }
     else {
         newList.push(addEmptyPara());
     }
     return newList;
-
 };
 
 

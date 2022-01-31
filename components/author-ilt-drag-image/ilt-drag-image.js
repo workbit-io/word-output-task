@@ -16,6 +16,7 @@ const addDragImage = module.exports = (object) => {
             children: [
                 new ImageRun({
                     data: fs.readFileSync("./assets/question.jpg"),
+                    // data: fs.readFileSync(object.properties.imageField),
                     transformation: {
                         width: 600,
                         height: 350,

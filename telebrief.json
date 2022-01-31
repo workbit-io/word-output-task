@@ -4168,7 +4168,7 @@
                         "preTextArea": "<p>Preceeding Text Area</p>",
                         "textAreaField": "<p>Contents</p>",
                         "postTextArea": "<p>Proceeding Text Area</p>",
-                        "audio": ""
+                        "audio": "here goes link to audio"
                       }
                     },
                     {
@@ -4204,7 +4204,50 @@
                         "preTextArea": "<p>Preceeding Text Area</p>",
                         "textAreaField": "<p>Contents</p>",
                         "postTextArea": "<p>Proceeding Text Area</p>",
-                        "audio": ""
+                        "audio": "here goes link to audio"
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e726c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e08",
+                      "_component": "ilt-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "ilt-image fallback test no assetFile value",
+                      "displayTitle": "ilt-image fallback test no assetFile value",
+                      "body": "",
+                      "properties": {
+                        "assetFile": ""
+                      }
+                    },
+                    {
+                      "_id": "61eab1c6333d381e939e6067",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-text",
+                      "_type": "component",
+                      "title": "ilt-text fallback test",
+                      "displayTitle": "",
+                      "body": "",
+                      "properties": {
+                        "textAreaField": "101"
+                      }
+                    },
+                    {
+                      "_id": "61f2b2700cfcc0402c8b7bac",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-animate",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "ilt-animate to test fallback",
+                      "displayTitle": "ilt-animate to test fallback",
+                      "body": "",
+                      "properties": {
+                        "handleResizeEvent": true,
+                        "adobeAnimateAsset": "",
+                        "swfKenexaId": "5445445455454454545"
                       }
                     }
                   ]

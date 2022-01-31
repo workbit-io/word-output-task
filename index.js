@@ -1,9 +1,7 @@
 const docx = require("docx");
 const fs = require("fs");
-// const data = require("./wlodek_json_word.json");
-// const data = require("./telebrief.json");
 const data = require("./telebrief.json");
-const { Document, Packer, Paragraph, TextRun, ImageRun, HeadingLevel, TableOfContents, Header, Footer, TextWrappingType, TextWrappingSide, PageNumber, AlignmentType, BorderStyle } = require("docx");
+const { Document, Packer, Paragraph, TextRun, ImageRun, TableOfContents, Header, Footer, PageNumber, AlignmentType, BorderStyle } = require("docx");
 const stylesConfig = require("./config");
 const addIltList = require("./components/author-ilt-list/ilt-list");
 const addIltText = require("./components/author-ilt-text/ilt-text");
@@ -37,8 +35,6 @@ const generateHeading1 = (article) => {
     nextHeading1Num++;
     nextHeading2Num = 0;
     nextHeading3Num = 0;
-    // console.log(nextHeading1Num);
-    // console.log(sessionIntroductionTitle[0].displayTitle);
     createHeading(sessionIntroductionTitle.displayTitle, nextHeading1Num, 1);
 };
 
@@ -46,18 +42,11 @@ const generateHeading2 = (article) => {
     const title = article.children[0].children[0].displayTitle;
     nextHeading2Num++;
     nextHeading3Num = 0;
-    // console.log(`${nextHeading1Num}.${nextHeading2Num}`);
-    // console.log(title);
     createHeading(title, `${nextHeading1Num}.${nextHeading2Num}`, 2);
 };
 
 // generates heading 3 and contents underneath
 const generateHeading3andContent = (teachingPoint) => {
-
-    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
-    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
-    // Some heading 3 have an image attached. They are not being displayed. FIX IT!!!!!!!!!!!!!!!!!!!!!!
-
     const keyLearningPoints = teachingPoint.children;
     keyLearningPoints.forEach(child => child.children.forEach((object, index) => {
         if (index === 0) {
@@ -99,9 +88,9 @@ const generateHeading3andContent = (teachingPoint) => {
         } else if (object._component === "ilt-s1000d") {
             adds1000d(object);
         }
-        // else if (object._component === "blank") {
-        //     generateBlankPage();
-        // }
+        else if (object._component === "blank") {
+            generateBlankPage();
+        }
     }));
 };
 const addText = (object) => {
@@ -135,11 +124,11 @@ const addDragImage = (object) => {
 const adds1000d = (object) => {
     addIlts1000d(object).forEach(element => contents.push(element));
 };
-// const generateBlankPage = () => {
-// contents.push(new Paragraph({
-//     pageBreakBefore: true,
-// }));
-// };
+const generateBlankPage = () => {
+    contents.push(new Paragraph({
+        pageBreakBefore: true,
+    }));
+};
 
 const generateDocX = () => {
     // adds a table of contents to the doc
@@ -220,7 +209,6 @@ const getHeadings = (course) => {
     course.children.forEach(page => {
         page.children.forEach((article, index) => {
             if (article._type === 'article') {
-                // console.log(index);
                 if (index === 0) { // it means it's a first element before Lesson Introduction
                     //  What should I do with it? It has got tons of info to display
                     // console.log("found and omitted ???");
@@ -250,22 +238,15 @@ const getHeadings = (course) => {
 
 // adds new heading to headings array
 const createHeading = (text, number, headingLevel) => {
-    // let headinglvl;
-    // let indent;
     let pageBreak = false;
     switch (headingLevel) {
         case 1:
-            // headinglvl = HeadingLevel.HEADING_1;
-            // indent = 0;
             pageBreak = true;
             break;
         case 2:
-            // headinglvl = HeadingLevel.HEADING_2;
-            // indent = 200;
             pageBreak = previousHeading > 1;
             break;
         case 3:
-            // headinglvl = HeadingLevel.HEADING_3;
             indent = 400;
             pageBreak = previousHeading > 2;
             break;
@@ -278,10 +259,6 @@ const createHeading = (text, number, headingLevel) => {
                 text: `${number} ${text}`,
             }),
         ],
-        // heading: headinglvl,
-        // indent: {
-        //     left: indent,
-        // },
         pageBreakBefore: pageBreak,
         spacing: {
             after: 200,
@@ -293,4 +270,5 @@ const createHeading = (text, number, headingLevel) => {
 
 createWordOutput();
 
+// for testing purposes
 module.exports = { createWordOutput, generateHeading1, generateHeading2, generateHeading3andContent, generateDocX, getHeadings, createHeading };
