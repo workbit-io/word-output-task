@@ -20,6 +20,10 @@ const stylesConfig = module.exports = {
             quickFormat: true,
             paragraph: {
                 heading: HeadingLevel.HEADING_1,
+                spacing: {
+                    before: 200,
+                    after: 200
+                }
             },
             run: {
                 font: "Arial",
@@ -36,6 +40,10 @@ const stylesConfig = module.exports = {
             quickFormat: true,
             paragraph: {
                 heading: HeadingLevel.HEADING_2,
+                spacing: {
+                    before: 200,
+                    after: 200
+                }
             },
             run: {
                 font: "Arial",
@@ -52,6 +60,10 @@ const stylesConfig = module.exports = {
             quickFormat: true,
             paragraph: {
                 heading: HeadingLevel.HEADING_3,
+                spacing: {
+                    before: 200,
+                    after: 200
+                }
             },
             run: {
                 font: "Arial",

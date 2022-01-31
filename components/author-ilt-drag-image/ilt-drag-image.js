@@ -9,6 +9,7 @@ const addDragImage = module.exports = (object) => {
             children: [
                 new TextRun({
                     text: object.properties.question.replace(/<\/?[^>]+>/gi, ''),
+                    bold: true
                 }),
             ],
         }));
@@ -22,13 +23,13 @@ const addDragImage = module.exports = (object) => {
                         height: 350,
                     },
                 })
-            ]
+            ],
+            style: "imagePara"
         })
         );
         return newDragImage;
     } else {
         console.log("No asses for: " + object._id);
-        return [];
     }
 };
 

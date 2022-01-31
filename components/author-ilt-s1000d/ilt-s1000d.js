@@ -55,7 +55,6 @@ const adds1000d = module.exports = (object) => {
     }
     else {
         console.log("No properties or assets for: " + object._id);
-        return [];
     };
 };
 

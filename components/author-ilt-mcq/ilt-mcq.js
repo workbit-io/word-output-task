@@ -8,6 +8,7 @@ const addText = module.exports = (object) => {
             children: [
                 new TextRun({
                     text: object.properties.question.replace(/<\/?[^>]+>/gi, ''),
+                    bold: true
                 }),
             ],
         }));
@@ -28,7 +29,6 @@ const addText = module.exports = (object) => {
         return newMcq;
     } else {
         console.log("No question or answers for: " + object._id);
-        return [];
     }
 };
 
