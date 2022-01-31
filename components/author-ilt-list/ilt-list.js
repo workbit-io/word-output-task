@@ -34,7 +34,8 @@ const addList = module.exports = (object) => {
                         // text: object.properties.preTextArea,
                     }),
                 ],
-                style: "greyedOutPara"
+                style: "greyedOutPara",
+                keepNext: true
             }));
 
             listItems.forEach(listItem => {
@@ -48,7 +49,9 @@ const addList = module.exports = (object) => {
                                 text: listItem.textArea.replace(/<\/?[^>]+>/gi, '')
                             }),
                         ],
-                        style: "bulletPara"
+                        style: "bulletPara",
+                        keepLines: true,
+                        keepNext: true
                     }));
                 }
             });

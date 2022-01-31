@@ -29,6 +29,7 @@ const adds1000d = module.exports = (object) => {
             ],
             alignment: AlignmentType.CENTER,
             style: object.title,
+            keepNext: true,
         }));
 
         newText.push(new Paragraph({
@@ -48,6 +49,7 @@ const adds1000d = module.exports = (object) => {
             ],
             style: object.title,
             widowControl: true,
+            keepLines: true
         }));
         return newText;
     }
