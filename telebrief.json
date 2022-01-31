@@ -4000,7 +4000,7 @@
                       "_id": "61eab231333d381e939e727c",
                       "_courseId": "61eab168333d381e939e31fb",
                       "_parentId": "61eab178333d381e939e3e09",
-                      "_component": "ilt-av",
+                      "_component": "ilt-list",
                       "_type": "component",
                       "_layout": "full",
                       "title": "Extra generic components for testing",
@@ -4248,6 +4248,135 @@
                         "handleResizeEvent": true,
                         "adobeAnimateAsset": "",
                         "swfKenexaId": "5445445455454454545"
+                      }
+                    },
+                    {
+                      "_id": "61eab231333d381e939e727c",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab178333d381e939e3e09",
+                      "_component": "ilt-av",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "ilt-av for no asset testing",
+                      "displayTitle": "ilt-av for no asset testing",
+                      "body": "",
+                      "properties": {
+                        "assetFile": ""
+                      }
+                    },
+                    {
+                      "_id": "61f2b2d60cfcc0402c8b7bb0",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-drag-image",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "ILT Drag Image",
+                      "displayTitle": "ILT Drag Image",
+                      "body": "",
+                      "properties": {
+                        "question": "<p>ilt drag image question component?</p>",
+                        "imageField": "",
+                        "shuffle": "2",
+                        "retries": 0,
+                        "showDragBorder": true,
+                        "showDragZone": true,
+                        "showTargets": true,
+                        "targetAreas": [
+                          {
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          },
+                          {
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          },
+                          {
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          },
+                          {
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          }
+                        ],
+                        "dragItems": [
+                          {
+                            "imageField": "",
+                            "pcLeft": 0,
+                            "pcTop": 0,
+                            "pcWidth": 0,
+                            "pcHeight": 0
+                          }
+                        ],
+                        "itemTargetMatching": [
+                          {
+                            "targetAreaIndex": 0,
+                            "dragItemIndex": 0,
+                            "weightingPc": 0,
+                            "feedbackText": ""
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_id": "61eab1c5333d381e939e601e",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e4437",
+                      "_component": "ilt-list",
+                      "_type": "component",
+                      "title": "Telebrief Fault Diagnosis and Rectification",
+                      "displayTitle": "Telebrief Fault Diagnosis and Rectification",
+                      "body": "",
+                      "properties": {
+                        "preTextArea": "",
+                        "postTextArea": "",
+                        "listType": "Bullets",
+                        "startNum": 0,
+                        "listItems": []
+                      }
+                    },
+                    {
+                      "_id": "61f2b2ba0cfcc0402c8b7bae",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-mcq",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "ILT MCQ",
+                      "displayTitle": "ILT MCQ",
+                      "body": "",
+                      "properties": {
+                        "question": "<p>Here goes question?</p>",
+                        "shuffle": "0",
+                        "retries": 100,
+                        "answers": []
+                      }
+                    },
+                    {
+                      "_id": "61f2b3800cfcc0402c8b7bb6",
+                      "_courseId": "61eab168333d381e939e31fb",
+                      "_parentId": "61eab17c333d381e939e443c",
+                      "_component": "ilt-s1000d",
+                      "_type": "component",
+                      "_layout": "full",
+                      "title": "S1000D to test fallback",
+                      "displayTitle": "S1000D to test fallback",
+                      "body": "",
+                      "properties": {
+                        "displayType": "caution",
+                        "preTextArea": "<p></p>",
+                        "textAreaField": "",
+                        "postTextArea": "",
+                        "audio": ""
                       }
                     }
                   ]

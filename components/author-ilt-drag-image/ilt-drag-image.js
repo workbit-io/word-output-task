@@ -4,14 +4,14 @@ const { Paragraph, TextRun, ImageRun } = require("docx");
 
 const addDragImage = module.exports = (object) => {
     const newDragImage = [];
-    newDragImage.push(new Paragraph({
-        children: [
-            new TextRun({
-                text: object.properties.question.replace(/<\/?[^>]+>/gi, ''),
-            }),
-        ],
-    }));
     if (object.properties.imageField) {
+        newDragImage.push(new Paragraph({
+            children: [
+                new TextRun({
+                    text: object.properties.question.replace(/<\/?[^>]+>/gi, ''),
+                }),
+            ],
+        }));
         newDragImage.push(new Paragraph({
             children: [
                 new ImageRun({
@@ -25,8 +25,11 @@ const addDragImage = module.exports = (object) => {
             ]
         })
         );
+        return newDragImage;
+    } else {
+        console.log("No asses for: " + object._id);
+        return [];
     }
-    return newDragImage;
 };
 
 module.exports = addDragImage;

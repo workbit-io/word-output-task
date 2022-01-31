@@ -67,3 +67,9 @@ if (removeTags(sen2)) {
 } else {
     console.log("false!!!");
 }
+
+let array1 = [1, 2, 3, 4, 5];
+
+array1.push([]);
+
+console.log(array1);
